@@ -1,0 +1,331 @@
+[
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "My research investigates how terrestrial and non-terrestrial communication networks can be designed, optimized, and operated more intelligently.\nI work across multiple layers of the communication system—from mobility and radio-resource management to satellite-system planning and constellation design—using communication-system modeling, mathematical optimization, machine learning, algorithm development, and system-level simulation.\nA recurring theme in my work is the interaction between three questions:"
+  },
+  {
+    "objectID": "research.html#research-areas",
+    "href": "research.html#research-areas",
+    "title": "Research",
+    "section": "Research Areas",
+    "text": "Research Areas\n\nTN–NTN Mobility & Handover\nHow can seamless connectivity be maintained when users, networks, and satellite coverage are continuously changing?\nThe integration of terrestrial and non-terrestrial networks introduces mobility challenges that extend beyond conventional cellular handover. Satellite motion, evolving coverage, heterogeneous access networks, service requirements, and network availability all influence the mobility decision.\nMy research investigates mobility and handover mechanisms for integrated TN–NTN systems, ranging from demand-aware satellite handover to context-aware and AI/ML-assisted mobility management.\nCurrent topics include:\n\nTN–NTN mobility management\nSatellite and beam handover\nContext-aware and predictive handover\nAI/ML-assisted mobility decisions\nMNO–SNO cooperation\nSystem-level mobility evaluation\n\nExplore my research perspective on TN–NTN handover →\n\n\n\nRadio Resource Management & Optimization\nHow should limited communication resources adapt to changing traffic, interference, and network conditions?\nA major theme throughout my research is the efficient management of communication-system resources.\nI have worked on problems involving power, bandwidth, beams, traffic demand, interference, scheduling, and payload resources, particularly in multi-beam and flexible satellite communication systems.\nMy work combines mathematical optimization with heuristic, combinatorial, and learning-assisted approaches to develop resource-management strategies that respond to heterogeneous traffic demand and operational constraints.\nKey topics include:\n\nPower and bandwidth allocation\nDemand-aware resource management\nInterference-aware optimization\nScheduling and link adaptation\nBeam and payload-resource management\nFlexible satellite systems\nOnboard processing-resource management\n\n\n\n\nBeamforming, Precoding & Beam Management\nHow can spatial resources be used more effectively to improve capacity and manage interference?\nMy research background includes physical-layer and system-level techniques for improving spectral efficiency and managing interference in wireless and satellite communication systems.\nThis includes work on precoding, beamforming, beam management, interference mitigation, and multi-beam communication systems, particularly where physical-layer techniques interact with resource-allocation and system-level decisions.\nI am especially interested in problems where beam design cannot be treated independently from traffic demand, resource availability, interference, and network geometry.\n\n\n\nBeam Placement & Resource Allocation\nWhere should satellite beams be placed, and how should resources be assigned to them under non-uniform traffic demand?\nMy work also considers the joint design of beam placement and radio-resource allocation, particularly for large-scale MEO satellite systems.\nThese problems connect coverage decisions with the allocation of bandwidth, power, and satellite resources, while accounting for traffic demand, satellite visibility, payload limitations, and interference.\nThis research provides a bridge between dynamic resource management and the broader problem of satellite-network planning.\nView related publications →\n\n\n\nSatellite System Planning & Constellation Optimization\nWhat satellite capabilities—and what constellation architecture—are required to deliver a target communication service?\nMy research increasingly addresses decisions that arise before a satellite network is deployed.\nAt the satellite level, I investigate how communication and service requirements can be translated into appropriate system resources and satellite capabilities.\nAt the network level, I study how constellation characteristics can be optimized according to coverage, communication, visibility, and service requirements.\nCurrent topics include:\n\nSatellite resource planning\nSystem dimensioning\nConstellation optimization\nOrbital and coverage analysis\nSatellite visibility\nCommunication-aware constellation design\n6G satellite connectivity\nDirect-to-Device connectivity\n\nExplore my research perspective on satellite planning and constellation optimization →\n\n\n\nAI/ML for Communication Networks\nWhere can learning provide a measurable advantage over model-based optimization and conventional network algorithms?\nI investigate machine-learning approaches for communication-system problems involving mobility, handover, resource management, network planning, and sequential decision making.\nMy interest is not in applying AI/ML independently of the communication problem. Instead, I am interested in combining learning with physical models, system constraints, domain knowledge, and mathematical optimization.\nThis includes research directions such as:\n\nReinforcement learning for mobility and handover\nLearning-assisted resource management\nPrediction and context-aware network decisions\nHybrid optimization and learning\nLearning-assisted system planning"
+  },
+  {
+    "objectID": "research.html#connecting-the-research-areas",
+    "href": "research.html#connecting-the-research-areas",
+    "title": "Research",
+    "section": "Connecting the Research Areas",
+    "text": "Connecting the Research Areas\nAlthough these topics can be studied independently, many of the most interesting problems emerge from their interaction.\nFor example:\nMobility ↔︎ Resource Management\nA handover decision affects network load and resource availability, while available resources can influence whether a handover is beneficial.\nResource Management ↔︎ System Planning\nOperational resource-allocation problems depend on the capabilities designed into the satellite and payload.\nSystem Planning ↔︎ Constellation Design\nSatellite capabilities influence the number and configuration of satellites required to provide a target service.\nConstellation Design ↔︎ Mobility\nAltitude, satellite density, visibility duration, and coverage overlap influence handover frequency and service continuity.\nAI/ML ↔︎ Optimization\nLearning can complement model-based approaches when decisions involve prediction, uncertainty, complex dynamics, or large design spaces.\nThese connections motivate a broader system-level perspective rather than treating mobility, resource management, and network design as completely separate problems."
+  },
+  {
+    "objectID": "research.html#research-evolution",
+    "href": "research.html#research-evolution",
+    "title": "Research",
+    "section": "Research Evolution",
+    "text": "Research Evolution\nMy research has progressively moved across different levels of satellite and wireless communication-system design.\n\nFlexible Satellite Resource Management\nMy doctoral research at the University of Luxembourg focused on resource-management techniques for flexible broadband satellite communication systems.\nThe work investigated the efficient use of power, bandwidth, beams, and payload resources under heterogeneous traffic demand and interference conditions.\nResearch topics included:\n\nFlexible resource optimization\nPower and bandwidth allocation\nDemand-aware resource management\nInterference-aware resource management\nFlexible payload-resource management\nOnboard processing-resource management\n\nThis work established the resource-optimization foundation that continues to influence my current research.\n\n\n5G Algorithm & System-Level Simulation\nMy industrial R&D experience at Nokia extended this perspective to terrestrial cellular systems.\nAs a Senior Algorithm and Simulation Engineer, I worked on algorithm development, performance evaluation, and system-level simulation for 5G systems, providing experience with 3GPP-based cellular-system development and industrial simulation methodology.\n\n\nIntegrated TN–NTN & Satellite Network Design\nMy current research extends these foundations toward broader questions involving TN–NTN mobility, intelligent handover, satellite-system planning, constellation optimization, Direct-to-Device connectivity, and AI/ML-assisted network decision making.\nThis progression connects operational questions—such as how resources should be allocated—with architectural questions about what resources should exist and how future terrestrial and non-terrestrial networks should be designed."
+  },
+  {
+    "objectID": "research.html#research-methodology",
+    "href": "research.html#research-methodology",
+    "title": "Research",
+    "section": "Research Methodology",
+    "text": "Research Methodology\nMy research combines several complementary approaches.\nCommunication-System Modeling\nLink budgets, channel models, traffic modeling, scenario definition, orbital and coverage analysis, and system-level abstraction.\nMathematical Optimization\nContinuous, discrete, combinatorial, heuristic, and metaheuristic approaches for communication-system design and resource management.\nMachine Learning\nLearning-assisted and reinforcement-learning approaches for mobility, resource management, prediction, and network decision making.\nAlgorithm Development\nTranslation of mathematical and system models into practical algorithms suitable for performance evaluation.\nSystem-Level Simulation\nImplementation, comparative evaluation, sensitivity analysis, and performance assessment under representative communication scenarios."
+  },
+  {
+    "objectID": "research.html#research-perspectives",
+    "href": "research.html#research-perspectives",
+    "title": "Research",
+    "section": "Research Perspectives",
+    "text": "Research Perspectives\nSome research questions require more space than a project description or publication list provides. I use my Ideas & Research Notes to develop selected perspectives, connect results from different studies, and identify emerging research directions.\nCurrent notes include:\n\nRethinking Handover for Integrated TN–NTN Networks →\nFrom Satellite Resource Planning to Constellation Optimization →"
+  },
+  {
+    "objectID": "research.html#research-collaboration",
+    "href": "research.html#research-collaboration",
+    "title": "Research",
+    "section": "Research Collaboration",
+    "text": "Research Collaboration\nI am interested in research collaboration around integrated TN–NTN systems, mobility and handover, radio-resource management, beam placement and resource allocation, satellite-system planning, constellation optimization, AI/ML for wireless networks, beamforming and beam management, and Direct-to-Device satellite connectivity.\nFor research discussions or potential collaborations, feel free to contact me.\nPublications Ideas & Research Notes About"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Tedros Salih Abdu",
+    "section": "",
+    "text": "I am a researcher at the Interdisciplinary Centre for Security, Reliability and Trust (SnT), University of Luxembourg, working on the design and optimization of next-generation wireless communication systems.\nMy research focuses on terrestrial and non-terrestrial networks (TN/NTN), particularly mobility and handover, radio-resource management, satellite system planning and constellation optimization, and the application of mathematical optimization and machine learning to communication networks.\nMy background combines academic research, industrial R&D, and research-project leadership.\nResearch Publications Google Scholar\n\n\n\n\n\n\n\n\n\nMy research addresses a central challenge in future wireless networks:\n\nHow can increasingly dynamic terrestrial and non-terrestrial communication systems make better decisions about connectivity, resources, and network architecture?\n\nI approach this challenge across four interconnected dimensions:\n\n\n\nEnabling seamless mobility and handover across terrestrial cells, satellite beams, and moving satellite networks.\n\n\n\nDeveloping methods to allocate power, bandwidth, beams, and network resources efficiently under changing traffic and system conditions.\n\n\n\nConnecting service requirements with satellite-system planning and constellation design for future 6G and Direct-to-Device connectivity.\n\n\n\nInvestigating where machine learning can complement mathematical optimization for mobility, resource management, and network decision making.\n\n\n\n\n\n\n\n\nHow can users move seamlessly between terrestrial networks, satellite beams, and moving satellites?\nI study mobility and handover in integrated terrestrial and non-terrestrial networks, including demand-aware satellite handover, MNO–SNO cooperation, context-aware mobility, and AI/ML-assisted handover decisions.\nExplore TN–NTN mobility research →\n\n\n\n\nHow should limited communication resources adapt to changing traffic, interference, and network conditions?\nMy work investigates the efficient management of power, bandwidth, beams, scheduling, interference, and payload resources across GEO, MEO, and NGSO satellite communication systems.\nI use mathematical optimization together with heuristic and learning-assisted approaches to develop resource-management strategies that adapt to heterogeneous traffic demand and system constraints.\n\n\n\n\nWhat satellite capabilities—and what constellation architecture—are needed to deliver a target communication service?\nI investigate the connection between service requirements, satellite resource planning, system dimensioning, orbital characteristics, coverage, and constellation optimization.\nThis research moves beyond operating an existing satellite system toward determining what resources and network architecture should be deployed in the first place.\nExplore satellite planning research →\n\n\n\n\nWhere can learning provide a measurable advantage over conventional optimization and rule-based methods?\nI investigate machine-learning approaches for mobility management, handover, resource optimization, network planning, and intelligent decision making.\nRather than treating AI as an objective by itself, I am interested in understanding where learning can complement communication-system models and mathematical optimization to improve network performance and adaptability.\n\n\n\n\n\n\n\nOne of my current research directions is the development of intelligent mobility and handover mechanisms for integrated terrestrial and non-terrestrial networks.\nFuture users may move—or maintain connectivity—across terrestrial cells, satellite beams, and different satellites. This makes mobility management a decision problem involving not only radio conditions, but also satellite visibility, network availability, user requirements, resources, and expected service continuity.\nI currently serve as VPI of SHINE, where my work focuses on intelligent mobility and handover for integrated terrestrial and non-terrestrial networks.\nMy activities include research and technical leadership, system and scenario modeling, development of technical specifications, technical baseline definition, coordination of technical activities, reporting, and dissemination.\nExplore my research →\nRead my TN–NTN mobility perspective →\n\n\n\n\n\nResearch papers usually present a problem after it has been formulated, investigated, and evaluated. Many new research directions, however, begin earlier—with an observation, a connection between problems, or an unanswered question.\nI use the Ideas & Research Notes section to document selected research perspectives and emerging directions related to my work.\nCurrent themes include:\n\nintelligent mobility and handover across integrated TN–NTN systems,\nsatellite resource planning and system dimensioning,\nconstellation optimization for future 6G connectivity,\njoint mobility and resource management,\nand the role of AI/ML in communication-system decision making.\n\nExplore Ideas & Research Notes →\n\n\n\n\nMy research has evolved from radio-resource management for flexible satellite systems toward broader questions involving network mobility, satellite-system planning, constellation design, and intelligent decision making.\nAlong this path, I have worked across academic research and industrial R&D, including algorithm development and system-level simulation for 5G systems at Nokia and collaborative satellite-communication research at the University of Luxembourg.\nThis combination of perspectives continues to shape how I approach research: from understanding the communication-system model, to formulating the optimization or learning problem, to evaluating whether the resulting method provides a meaningful system-level benefit.\nLearn more about my background →\n\n\n\n\nResearch Publications Ideas & Notes About Google Scholar Email"
+  },
+  {
+    "objectID": "index.html#research-at-a-glance",
+    "href": "index.html#research-at-a-glance",
+    "title": "Tedros Salih Abdu",
+    "section": "",
+    "text": "My research addresses a central challenge in future wireless networks:\n\nHow can increasingly dynamic terrestrial and non-terrestrial communication systems make better decisions about connectivity, resources, and network architecture?\n\nI approach this challenge across four interconnected dimensions:\n\n\n\nEnabling seamless mobility and handover across terrestrial cells, satellite beams, and moving satellite networks.\n\n\n\nDeveloping methods to allocate power, bandwidth, beams, and network resources efficiently under changing traffic and system conditions.\n\n\n\nConnecting service requirements with satellite-system planning and constellation design for future 6G and Direct-to-Device connectivity.\n\n\n\nInvestigating where machine learning can complement mathematical optimization for mobility, resource management, and network decision making."
+  },
+  {
+    "objectID": "index.html#research-areas",
+    "href": "index.html#research-areas",
+    "title": "Tedros Salih Abdu",
+    "section": "",
+    "text": "How can users move seamlessly between terrestrial networks, satellite beams, and moving satellites?\nI study mobility and handover in integrated terrestrial and non-terrestrial networks, including demand-aware satellite handover, MNO–SNO cooperation, context-aware mobility, and AI/ML-assisted handover decisions.\nExplore TN–NTN mobility research →\n\n\n\n\nHow should limited communication resources adapt to changing traffic, interference, and network conditions?\nMy work investigates the efficient management of power, bandwidth, beams, scheduling, interference, and payload resources across GEO, MEO, and NGSO satellite communication systems.\nI use mathematical optimization together with heuristic and learning-assisted approaches to develop resource-management strategies that adapt to heterogeneous traffic demand and system constraints.\n\n\n\n\nWhat satellite capabilities—and what constellation architecture—are needed to deliver a target communication service?\nI investigate the connection between service requirements, satellite resource planning, system dimensioning, orbital characteristics, coverage, and constellation optimization.\nThis research moves beyond operating an existing satellite system toward determining what resources and network architecture should be deployed in the first place.\nExplore satellite planning research →\n\n\n\n\nWhere can learning provide a measurable advantage over conventional optimization and rule-based methods?\nI investigate machine-learning approaches for mobility management, handover, resource optimization, network planning, and intelligent decision making.\nRather than treating AI as an objective by itself, I am interested in understanding where learning can complement communication-system models and mathematical optimization to improve network performance and adaptability."
+  },
+  {
+    "objectID": "index.html#current-focus",
+    "href": "index.html#current-focus",
+    "title": "Tedros Salih Abdu",
+    "section": "",
+    "text": "One of my current research directions is the development of intelligent mobility and handover mechanisms for integrated terrestrial and non-terrestrial networks.\nFuture users may move—or maintain connectivity—across terrestrial cells, satellite beams, and different satellites. This makes mobility management a decision problem involving not only radio conditions, but also satellite visibility, network availability, user requirements, resources, and expected service continuity.\nI currently serve as VPI of SHINE, where my work focuses on intelligent mobility and handover for integrated terrestrial and non-terrestrial networks.\nMy activities include research and technical leadership, system and scenario modeling, development of technical specifications, technical baseline definition, coordination of technical activities, reporting, and dissemination.\nExplore my research →\nRead my TN–NTN mobility perspective →"
+  },
+  {
+    "objectID": "index.html#from-research-results-to-new-questions",
+    "href": "index.html#from-research-results-to-new-questions",
+    "title": "Tedros Salih Abdu",
+    "section": "",
+    "text": "Research papers usually present a problem after it has been formulated, investigated, and evaluated. Many new research directions, however, begin earlier—with an observation, a connection between problems, or an unanswered question.\nI use the Ideas & Research Notes section to document selected research perspectives and emerging directions related to my work.\nCurrent themes include:\n\nintelligent mobility and handover across integrated TN–NTN systems,\nsatellite resource planning and system dimensioning,\nconstellation optimization for future 6G connectivity,\njoint mobility and resource management,\nand the role of AI/ML in communication-system decision making.\n\nExplore Ideas & Research Notes →"
+  },
+  {
+    "objectID": "index.html#research-journey",
+    "href": "index.html#research-journey",
+    "title": "Tedros Salih Abdu",
+    "section": "",
+    "text": "My research has evolved from radio-resource management for flexible satellite systems toward broader questions involving network mobility, satellite-system planning, constellation design, and intelligent decision making.\nAlong this path, I have worked across academic research and industrial R&D, including algorithm development and system-level simulation for 5G systems at Nokia and collaborative satellite-communication research at the University of Luxembourg.\nThis combination of perspectives continues to shape how I approach research: from understanding the communication-system model, to formulating the optimization or learning problem, to evaluating whether the resulting method provides a meaningful system-level benefit.\nLearn more about my background →"
+  },
+  {
+    "objectID": "index.html#explore",
+    "href": "index.html#explore",
+    "title": "Tedros Salih Abdu",
+    "section": "",
+    "text": "Research Publications Ideas & Notes About Google Scholar Email"
+  },
+  {
+    "objectID": "ideas/tn-ntn-handover.html",
+    "href": "ideas/tn-ntn-handover.html",
+    "title": "Rethinking Handover for Integrated TN–NTN Networks",
+    "section": "",
+    "text": "The integration of terrestrial networks (TN) and non-terrestrial networks (NTN) creates new opportunities for ubiquitous and resilient connectivity. It also changes the nature of mobility management.\nIn a conventional terrestrial network, handover is primarily associated with user movement between cells. In NTN, the network itself may be moving: satellites and their coverage areas evolve continuously relative to users on the ground.\nWhen TN and NTN are integrated, mobility management therefore becomes a broader decision problem involving radio conditions, satellite visibility, user demand, network availability, service requirements, and handover cost.\nMy research in this area has evolved from demand-aware handover in LEO constellations toward intelligent mobility management for integrated TN–NTN systems."
+  },
+  {
+    "objectID": "ideas/tn-ntn-handover.html#from-leo-handover-to-tnntn-mobility",
+    "href": "ideas/tn-ntn-handover.html#from-leo-handover-to-tnntn-mobility",
+    "title": "Rethinking Handover for Integrated TN–NTN Networks",
+    "section": "From LEO Handover to TN–NTN Mobility",
+    "text": "From LEO Handover to TN–NTN Mobility\nLEO constellations introduce an inherent mobility challenge. Even for a stationary user, the serving satellite remains visible only for a limited period.\nThis leads to a fundamental question:\n\nHow can continuous service be maintained while avoiding unnecessary handovers?\n\nIn our earlier work on demand-aware flexible handover for LEO constellations, we considered handover together with user traffic demand. The objective was to reduce the number of handovers while continuously satisfying the required user demand.\nThis work motivated a broader perspective: handover should not depend only on which satellite is visible or which link is strongest. The decision should also consider whether the serving network can continue satisfying the user’s service requirements.\nThe problem becomes more complex in integrated TN–NTN systems because a user may have multiple connectivity alternatives, including terrestrial cells, satellite beams, and different satellites.\nThe decision therefore changes from:\n\nWhich satellite should serve the user?\n\nto:\n\nWhich network, cell, beam, or satellite should serve the user, and when is switching actually beneficial?"
+  },
+  {
+    "objectID": "ideas/tn-ntn-handover.html#handover-is-more-than-a-radio-decision",
+    "href": "ideas/tn-ntn-handover.html#handover-is-more-than-a-radio-decision",
+    "title": "Rethinking Handover for Integrated TN–NTN Networks",
+    "section": "Handover Is More Than a Radio Decision",
+    "text": "Handover Is More Than a Radio Decision\nIntegrated TN–NTN mobility involves several interacting factors:\n\nradio-link quality,\nsatellite visibility and coverage evolution,\nterrestrial-network availability,\nuser mobility,\ntraffic and service requirements,\nnetwork load,\nhandover interruption,\nconnection failures,\nand ping-pong behavior.\n\nThere is also an architectural dimension.\nTerrestrial connectivity may be provided by a Mobile Network Operator (MNO) while satellite connectivity is provided by a Satellite Network Operator (SNO).\nOur work on MNO–SNO cooperation examined how roaming and network cooperation affect mobility between terrestrial and satellite networks. This highlights an important point: seamless TN–NTN mobility depends not only on the handover algorithm but also on the architecture supporting the transition.\nFuture handover mechanisms may therefore need to reason jointly about radio conditions and network context."
+  },
+  {
+    "objectID": "ideas/tn-ntn-handover.html#from-rule-based-to-intelligent-handover",
+    "href": "ideas/tn-ntn-handover.html#from-rule-based-to-intelligent-handover",
+    "title": "Rethinking Handover for Integrated TN–NTN Networks",
+    "section": "From Rule-Based to Intelligent Handover",
+    "text": "From Rule-Based to Intelligent Handover\nConventional handover mechanisms commonly use radio measurements together with parameters such as thresholds, hysteresis, and time-to-trigger.\nThese mechanisms remain important, but integrated TN–NTN environments introduce additional information that could potentially improve mobility decisions.\nFor example, a handover controller could consider:\nRadio context — signal quality, interference, and link availability.\nNTN context — satellite position, elevation, visibility duration, and beam evolution.\nUser context — mobility, traffic demand, and service requirements.\nNetwork context — load, resource availability, and candidate-network conditions.\nArchitectural context — MNO/SNO cooperation and expected handover interruption.\nPredictive context — future satellite visibility and expected network conditions.\nThis changes handover from a largely reactive event toward a potentially context-aware and predictive decision process."
+  },
+  {
+    "objectID": "ideas/tn-ntn-handover.html#learning-based-mobility-management",
+    "href": "ideas/tn-ntn-handover.html#learning-based-mobility-management",
+    "title": "Rethinking Handover for Integrated TN–NTN Networks",
+    "section": "Learning-Based Mobility Management",
+    "text": "Learning-Based Mobility Management\nDeep reinforcement learning (DRL) provides one framework for studying such sequential mobility decisions.\nInstead of optimizing each handover independently, an RL agent can learn a policy that considers the longer-term consequences of remaining with the current network or moving to another candidate.\nIn our recent work, we evaluated PPO, A2C, and DQN for handover management across hybrid TN–NTN scenarios.\nAn important observation is that the relative behavior of these algorithms depends on the considered coverage environment. This suggests that simply introducing AI/ML does not automatically solve the mobility problem.\nThe state representation, reward formulation, network scenario, training environment, and algorithm all matter.\nFor me, this leads to a more interesting research question:\n\nHow can mobility intelligence adapt to the characteristics of the TN–NTN environment rather than relying on one fixed handover strategy?"
+  },
+  {
+    "objectID": "ideas/tn-ntn-handover.html#research-directions",
+    "href": "ideas/tn-ntn-handover.html#research-directions",
+    "title": "Rethinking Handover for Integrated TN–NTN Networks",
+    "section": "Research Directions",
+    "text": "Research Directions\nBuilding on these results, I am particularly interested in four directions.\n\n1. Context-Aware and Predictive Handover\nSatellite trajectories provide information that is fundamentally different from conventional terrestrial mobility: much of the satellite motion is predictable.\nThis creates opportunities to combine current radio measurements with information about:\n\nfuture satellite visibility,\nexpected coverage evolution,\nuser trajectory,\nservice requirements,\nand network conditions.\n\nA key question is whether this information can enable proactive handover decisions rather than waiting until link degradation triggers a transition.\n\n\n\n2. Hybrid Optimization and Learning\nMy earlier LEO handover work used optimization-based methods, while more recent work investigates learning-based mobility management.\nThese approaches have complementary strengths.\nModel-based optimization can exploit known system structure and constraints. Learning can be useful when decisions involve complex dynamics and long-term consequences.\nThis motivates hybrid approaches such as:\n\noptimization-guided reinforcement learning,\nlearning-assisted candidate selection,\nmodel-based constraints for learned policies,\nand hierarchical TN–NTN decision making.\n\nThe objective is not simply to replace optimization with AI, but to determine where learning adds measurable value.\n\n\n\n3. Service- and Resource-Aware Mobility\nThe strongest instantaneous radio link may not always be the most appropriate serving network.\nFuture mobility decisions could jointly consider:\n\nlink quality,\nuser QoS,\ntraffic demand,\nterrestrial and satellite resources,\nnetwork congestion,\nand expected connection duration.\n\nThis connects mobility management with another major area of my research: radio-resource management.\nA broader question is therefore:\n\nCan mobility and resource management be optimized jointly rather than treated as independent network functions?\n\n\n\n\n4. Mobility-Aware TN–NTN Architecture\nThe network architecture itself can influence handover latency, signaling, and service continuity.\nThis makes MNO–SNO cooperation, core-network integration, and mobility procedures part of the research problem.\nAn important direction is to investigate which architectural assumptions enable intelligent mobility mechanisms to operate effectively and how mobility algorithms should adapt when those assumptions change."
+  },
+  {
+    "objectID": "ideas/tn-ntn-handover.html#research-perspective",
+    "href": "ideas/tn-ntn-handover.html#research-perspective",
+    "title": "Rethinking Handover for Integrated TN–NTN Networks",
+    "section": "Research Perspective",
+    "text": "Research Perspective\nThe evolution from LEO satellite handover toward integrated TN–NTN mobility suggests that future handover mechanisms will need to operate across several dimensions:\nradio conditions + satellite dynamics + user requirements + network resources + architecture + prediction\nThe research challenge is therefore broader than finding a better handover threshold.\nThe objective is to determine when to hand over, where to hand over, and whether a handover is worthwhile, while maintaining service continuity and using terrestrial and non-terrestrial resources efficiently.\nThis is the direction I am continuing to explore through system modeling, mathematical optimization, machine learning, and system-level evaluation."
+  },
+  {
+    "objectID": "ideas/tn-ntn-handover.html#related-publications",
+    "href": "ideas/tn-ntn-handover.html#related-publications",
+    "title": "Rethinking Handover for Integrated TN–NTN Networks",
+    "section": "Related Publications",
+    "text": "Related Publications\n\n1. Demand-Aware Flexible Handover Strategy for LEO Constellation\nT. S. Abdu, E. Lagunas, V. N. Ha, J. Grotz, S. Kisseleff, and S. Chatzinotas\nIEEE ICC Workshops, Rome, Italy, 2023.\nInvestigates demand-aware LEO satellite handover with the objective of reducing unnecessary handovers while satisfying user demand.\nPublication record\n\n\n\n2. Satellite and Mobile Network Operator Cooperation Models for Efficient Handover in 6G-TN-NTN\nT. S. Abdu, E. Lagunas, F. Ortiz, J. Querol, J. Grotz, M. O. K. Mendonça, O. Aouedi, and S. Chatzinotas\n15th EASN International Conference, Madrid, Spain, 2025.\nExamines MNO–SNO cooperation and mobility procedures for integrated TN–NTN connectivity.\nPublication record\n\n\n\n3. Deep Reinforcement Learning for Mobility Management in 6G Networks: A Survey\nO. Aouedi, T. S. Abdu, E. Lagunas, and S. Chatzinotas\n2026.\nProvides a broader perspective on DRL-based mobility management and its application to heterogeneous future wireless networks.\nPublication record\n\n\n\n4. Intelligent Handover Management for Hybrid TN–NTN Mobility in 6G Architectures\nO. Aouedi, T. S. Abdu, K.-H. Nguyen, E. Lagunas, J. Querol, and J. Grotz\nIEEE 103rd Vehicular Technology Conference (IEEE VTC), 2026.\nInvestigates reinforcement-learning-based handover for hybrid TN–NTN mobility and evaluates PPO, A2C, and DQN across different coverage scenarios.\nPublication record\n\nThis note presents an evolving research perspective. The Research Directions describe potential extensions and open questions rather than completed research results."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "I am Tedros Salih Abdu, a researcher at the Interdisciplinary Centre for Security, Reliability and Trust (SnT), University of Luxembourg. My work focuses on the design and optimization of next-generation wireless communication systems, particularly terrestrial and non-terrestrial networks.\nMy background spans academic research, industrial R&D, and collaborative research-project leadership, with experience in mathematical optimization, machine learning, algorithm development, and system-level simulation for wireless and satellite communication systems."
+  },
+  {
+    "objectID": "about.html#background",
+    "href": "about.html#background",
+    "title": "About",
+    "section": "Background",
+    "text": "Background\nI received my Ph.D. in Computer Science from the University of Luxembourg in 2022, where my doctoral research focused on resource-management techniques for flexible broadband satellite communication systems.\nI received a joint M.Sc. degree in Electrical Engineering from Pan African University and Jomo Kenyatta University of Agriculture and Technology, Kenya, in 2017, and a B.Sc. degree in Electronics and Communication Engineering from Mekelle University.\nMy professional experience spans both academia and industry. From 2017 to 2019, I was a Lecturer at Wollo University. I subsequently joined the University of Luxembourg, where I worked as a Doctoral Researcher and later as a Research Associate.\nI also worked at Nokia as a Senior Algorithm and Simulation Engineer, contributing to algorithm development and system-level simulation for 5G systems. I later returned to SnT, University of Luxembourg, where I currently work on research and development for next-generation terrestrial and non-terrestrial communication systems."
+  },
+  {
+    "objectID": "about.html#research-interests",
+    "href": "about.html#research-interests",
+    "title": "About",
+    "section": "Research Interests",
+    "text": "Research Interests\nMy research interests include:\n\nTerrestrial and non-terrestrial networks (TN/NTN)\nMobility and handover management\nRadio-resource management\nSatellite system planning and constellation optimization\nPrecoding, beamforming, and beam management\nChannel modeling and channel estimation\nMathematical optimization for communication systems\nMachine learning for wireless networks\nDirect-to-Device satellite connectivity\n\nMy research combines communication-system modeling, mathematical optimization, machine learning, algorithm development, and system-level simulation.\nFor a more detailed overview, see my Research page."
+  },
+  {
+    "objectID": "about.html#research-projects-leadership",
+    "href": "about.html#research-projects-leadership",
+    "title": "About",
+    "section": "Research Projects & Leadership",
+    "text": "Research Projects & Leadership\nI contribute to collaborative research projects at SnT, University of Luxembourg, with responsibilities spanning research, technical leadership, and task coordination.\n\nSHINE — VPI\nREGINA — Task Leader\nSYMBOL — Task Leader\nEMMANUELE — Researcher\n\nMy project activities include research and technical leadership, technical coordination, system and scenario modeling, development of technical specifications, research documentation, reporting, and dissemination."
+  },
+  {
+    "objectID": "about.html#professional-service",
+    "href": "about.html#professional-service",
+    "title": "About",
+    "section": "Professional Service",
+    "text": "Professional Service\nAlongside my research, I contribute to the wireless-communications research community through conference and journal service.\nI have served as a Technical Programme Committee (TPC) Member for the EuCNC & 6G Summit within the Wireless, Optical and Satellite Networks (WOS) track.\nI have also reviewed research for international conferences including IEEE ICC, IEEE PIMRC, and EuCNC & 6G Summit, as well as journals including IEEE Transactions on Wireless Communications, IEEE Transactions on Aerospace and Electronic Systems, and IEEE Communications Letters."
+  },
+  {
+    "objectID": "about.html#research-ideas",
+    "href": "about.html#research-ideas",
+    "title": "About",
+    "section": "Research Ideas",
+    "text": "Research Ideas\nBeyond formal publications, I use this website to document selected research perspectives, open questions, and emerging research directions related to my work.\nThese notes currently explore topics including intelligent TN–NTN mobility and handover, satellite resource planning, constellation optimization, and future directions for 6G satellite networks.\nExplore Research Ideas & Notes →"
+  },
+  {
+    "objectID": "about.html#connect",
+    "href": "about.html#connect",
+    "title": "About",
+    "section": "Connect",
+    "text": "Connect\nI welcome research discussions and potential collaborations in next-generation wireless communications, integrated TN–NTN systems, satellite communications, resource optimization, and intelligent network design.\nEmail Google Scholar Publications"
+  },
+  {
+    "objectID": "ideas/resource-plan-satellite-constellation.html",
+    "href": "ideas/resource-plan-satellite-constellation.html",
+    "title": "From Satellite Resource Planning to Constellation Optimization",
+    "section": "",
+    "text": "Designing a satellite network involves decisions at multiple levels.\nAt the satellite level, we need to determine what communication and payload capabilities are required. At the network level, we need to determine how many satellites are needed, how they should be deployed, and whether the resulting constellation can satisfy the intended service requirements.\nMy recent research approaches these questions from two connected directions: satellite resource planning and constellation optimization.\nTogether, they motivate a broader question:"
+  },
+  {
+    "objectID": "ideas/resource-plan-satellite-constellation.html#from-resource-allocation-to-resource-planning",
+    "href": "ideas/resource-plan-satellite-constellation.html#from-resource-allocation-to-resource-planning",
+    "title": "From Satellite Resource Planning to Constellation Optimization",
+    "section": "From Resource Allocation to Resource Planning",
+    "text": "From Resource Allocation to Resource Planning\nMuch of satellite resource management starts with an existing system and asks how available resources should be allocated.\nTypical decisions involve:\n\npower,\nbandwidth,\nbeams,\npayload resources,\nand traffic demand.\n\nResource planning asks an earlier question:\n\nWhat resources should the satellite system have before it is deployed?\n\nThis distinction is important because service requirements influence not only how resources are allocated, but potentially the physical and system-level characteristics of the satellite.\nIn our work on resource planning for next-generation satellite communication systems, we investigated how communication requirements can be translated into candidate satellite-system specifications.\nThe planning framework considers parameters associated with:\n\nspot beams,\nDC power,\nantenna dimensions,\nsatellite mass,\nand system cost.\n\nThis creates a connection between communication-system requirements and satellite-system design."
+  },
+  {
+    "objectID": "ideas/resource-plan-satellite-constellation.html#from-satellite-planning-to-constellation-design",
+    "href": "ideas/resource-plan-satellite-constellation.html#from-satellite-planning-to-constellation-design",
+    "title": "From Satellite Resource Planning to Constellation Optimization",
+    "section": "From Satellite Planning to Constellation Design",
+    "text": "From Satellite Planning to Constellation Design\nFor a non-geostationary satellite network, designing an individual satellite is only part of the problem.\nNetwork performance also depends on the constellation architecture, including:\n\norbital altitude,\nnumber of satellites,\norbital geometry,\ncoverage,\nsatellite visibility,\nand communication-link requirements.\n\nThis leads to a second question:\n\nGiven the capabilities of the satellites, what constellation is required to deliver the target service?\n\nOur recent work on satellite constellation optimization for 6G and beyond investigates this problem in the context of connectivity to handheld devices.\nThe formulation considers communication and visibility requirements together with orbital characteristics and seeks to determine a constellation satisfying the considered requirements with a reduced number of satellites.\nThis connects orbital design with communication-system performance."
+  },
+  {
+    "objectID": "ideas/resource-plan-satellite-constellation.html#coverage-is-not-the-same-as-service",
+    "href": "ideas/resource-plan-satellite-constellation.html#coverage-is-not-the-same-as-service",
+    "title": "From Satellite Resource Planning to Constellation Optimization",
+    "section": "Coverage Is Not the Same as Service",
+    "text": "Coverage Is Not the Same as Service\nAn important distinction in satellite-network planning is between geometric coverage and service availability.\nA satellite may be visible to a user without necessarily providing a communication link capable of satisfying the target service.\nThis distinction becomes particularly important for Direct-to-Device (D2D) connectivity, where handheld-terminal capabilities impose challenging link-budget constraints.\nFor future constellation design, the relevant question is therefore not simply:\n\nIs a satellite visible?\n\nbut:\n\nCan a visible satellite provide the required service?\n\nThis motivates a more service-aware approach to constellation planning."
+  },
+  {
+    "objectID": "ideas/resource-plan-satellite-constellation.html#the-constellation-design-trade-off",
+    "href": "ideas/resource-plan-satellite-constellation.html#the-constellation-design-trade-off",
+    "title": "From Satellite Resource Planning to Constellation Optimization",
+    "section": "The Constellation Design Trade-Off",
+    "text": "The Constellation Design Trade-Off\nOrbital altitude illustrates the interaction between constellation architecture and communication performance.\nLower-altitude satellites benefit from shorter communication distances, but an individual satellite covers a smaller geographic region and a larger constellation may therefore be required.\nAt higher altitudes, individual satellites can cover larger regions, but the longer communication distance makes the link budget more demanding.\nThis creates a coupled design problem involving:\naltitude ↔︎ constellation size ↔︎ satellite capability ↔︎ communication performance\nStudying these quantities jointly is more informative than optimizing any one of them in isolation."
+  },
+  {
+    "objectID": "ideas/resource-plan-satellite-constellation.html#research-directions",
+    "href": "ideas/resource-plan-satellite-constellation.html#research-directions",
+    "title": "From Satellite Resource Planning to Constellation Optimization",
+    "section": "Research Directions",
+    "text": "Research Directions\nBuilding on the two studies, I am particularly interested in four broader directions.\n\n1. Joint Resource and Constellation Optimization\nSatellite resource planning and constellation optimization are naturally connected.\nInstead of designing satellite capabilities first and determining constellation size afterward, a future framework could optimize them jointly.\nFor example, there may be a trade-off between deploying:\n\nmore satellites with relatively modest capabilities, or\nfewer satellites with greater communication and payload capabilities.\n\nA joint formulation could expose trade-offs involving satellite count, mass, power, antenna characteristics, capacity, and cost.\nThe central question is:\n\nWhat combination of satellite capability and constellation architecture provides the required service most efficiently?\n\n\n\n\n2. Traffic- and Service-Aware Constellation Planning\nGlobal communication demand is highly non-uniform.\nPopulation distribution, transportation corridors, maritime and aviation traffic, and terrestrial-network availability all affect where satellite capacity is actually required.\nThis suggests moving beyond uniform geographic coverage toward traffic-aware and service-aware planning.\nA possible design chain is:\ntraffic demand → service requirements → satellite resources → constellation architecture\nThis could also incorporate different requirements for broadband, IoT, emergency connectivity, or Direct-to-Device services.\n\n\n\n3. Mobility-Aware TN–NTN Constellation Design\nConstellation architecture determines more than coverage.\nSatellite density, altitude, coverage overlap, and visibility duration also influence:\n\nhandover frequency,\ncandidate-satellite availability,\nconnection duration,\nand mobility robustness.\n\nThis creates a direct connection with my research on TN–NTN mobility and handover.\nA future constellation could therefore be designed not only for coverage and capacity, but also for efficient mobility.\nIn an integrated TN–NTN system, terrestrial coverage could also become part of the planning problem:\n\nWhere and when does NTN actually need to provide coverage or additional capacity given the capabilities of the terrestrial network?\n\nThis connects satellite planning with the broader architecture of future integrated networks.\n\n\n\n4. Adaptive and Learning-Assisted Planning\nSatellite systems operate for many years, while traffic demand and service requirements can evolve significantly.\nPlanning solely for one expected operating condition may therefore result in an architecture that becomes inefficient as demand changes.\nFuture approaches could incorporate:\n\nuncertainty in traffic demand,\nflexible or software-defined payload capabilities,\nrobust and scenario-based optimization,\nmulti-objective optimization,\nand learning-assisted search.\n\nAI/ML may be particularly useful for accelerating large design-space exploration or learning surrogate models for expensive system evaluations.\nHowever, I see learning as a complement to, rather than an automatic replacement for, mathematical and model-based optimization.\nThe key question is:\n\nWhere can learning provide a measurable advantage while preserving the physical structure and constraints of the satellite-system problem?"
+  },
+  {
+    "objectID": "ideas/resource-plan-satellite-constellation.html#a-broader-research-framework",
+    "href": "ideas/resource-plan-satellite-constellation.html#a-broader-research-framework",
+    "title": "From Satellite Resource Planning to Constellation Optimization",
+    "section": "A Broader Research Framework",
+    "text": "A Broader Research Framework\nThese directions suggest a broader view of satellite-network design:\nService Requirements\n↓\nTraffic & Coverage Modeling\n↓\nSatellite Resource Planning\n↓\nConstellation Optimization\n↓\nDynamic Resource & Mobility Management\nThe interesting research opportunity is that these stages do not necessarily need to be independent.\nMobility requirements could influence constellation design. Terrestrial coverage could influence required satellite capacity. Payload flexibility could influence how aggressively a system must be optimized before deployment.\nThis creates the possibility of moving from individual optimization problems toward system-level co-design."
+  },
+  {
+    "objectID": "ideas/resource-plan-satellite-constellation.html#research-perspective",
+    "href": "ideas/resource-plan-satellite-constellation.html#research-perspective",
+    "title": "From Satellite Resource Planning to Constellation Optimization",
+    "section": "Research Perspective",
+    "text": "Research Perspective\nMy earlier work focused primarily on managing resources within satellite systems. These more recent studies move the question progressively toward planning what resources should exist and what network architecture should provide them.\nThe broader question therefore becomes:\n\nWhat satellite resources should be deployed, what constellation architecture should provide them, and how should those resources subsequently be managed?\n\nI see three connected levels:\nDesign — what system should be built?\nPlanning — what resources and architecture are required to support the intended services?\nOperation — how should those resources be dynamically managed after deployment?\nConnecting these levels is an interesting direction toward satellite networks that are more service-aware, resource-efficient, flexible, and responsive to changing demand."
+  },
+  {
+    "objectID": "ideas/resource-plan-satellite-constellation.html#related-publications",
+    "href": "ideas/resource-plan-satellite-constellation.html#related-publications",
+    "title": "From Satellite Resource Planning to Constellation Optimization",
+    "section": "Related Publications",
+    "text": "Related Publications\n\n1. Optimizing Resource Planning for Next-Generation Satellite Communication Systems\nT. S. Abdu, V. N. Ha, E. Lagunas, and S. Chatzinotas\nIEEE GLOBECOM Workshops, Cape Town, South Africa, 2024.\nInvestigates resource planning before satellite deployment and develops an optimization-based methodology for determining system specifications required to support heterogeneous communication services.\nPublication record\n\n\n\n2. Satellite Constellation Optimization for 6G and Beyond Satellite Networks\nT. S. Abdu, J. A. Vásquez-Peralvo, E. Lagunas, and S. Chatzinotas\nIEEE ICC Workshops, Glasgow, United Kingdom, 2026.\nExtends the planning perspective to constellation design under orbital, communication, and satellite-visibility requirements for future 6G connectivity.\nPublication record\n\nThis note presents an evolving research perspective. The Research Directions describe potential extensions and open questions rather than completed research results."
+  },
+  {
+    "objectID": "ideas.html",
+    "href": "ideas.html",
+    "title": "Ideas & Research Notes",
+    "section": "",
+    "text": "Research often begins with a question rather than a finished result.\nThis space is where I develop research perspectives, technical observations, open questions, and emerging directions related to my work in terrestrial and non-terrestrial networks.\nThe notes connect ideas across TN–NTN mobility, radio-resource management, satellite system planning, constellation optimization, and AI/ML-assisted communication systems.\nThey are intended to capture the thinking that often sits between published results and future research questions. Some notes therefore discuss work in progress, possible extensions, and research directions rather than completed research results."
+  },
+  {
+    "objectID": "ideas.html#research-notes",
+    "href": "ideas.html#research-notes",
+    "title": "Ideas & Research Notes",
+    "section": "Research Notes",
+    "text": "Research Notes"
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "My research publications span terrestrial and non-terrestrial networks, mobility and handover, satellite system planning, radio-resource management, optimization, and AI/ML-assisted communication systems.\nSelected publications are listed below. For my complete and most up-to-date publication record, please visit my Google Scholar profile.\nGoogle Scholar"
+  },
+  {
+    "objectID": "publications.html#selected-recent-publications",
+    "href": "publications.html#selected-recent-publications",
+    "title": "Publications",
+    "section": "Selected Recent Publications",
+    "text": "Selected Recent Publications\n\nSatellite Constellation Optimization for 6G and Beyond Satellite Networks\nTedros Salih Abdu, Juan Andrés Vásquez-Peralvo, Eva Lagunas, and Symeon Chatzinotas\nIEEE International Conference on Communications Workshops (ICC Workshops), 2026\nSatellite constellation optimization for future 6G connectivity, considering orbital geometry, communication requirements, satellite visibility, and Direct-to-Device service.\nPublication record\n\n\n\nIntelligent Handover Management for Hybrid TN–NTN Mobility in 6G Architectures\nOns Aouedi, Tedros Salih Abdu, Kha Hung Nguyen, Eva Lagunas, Jorge Querol, and Joel Grotz\nIEEE 103rd Vehicular Technology Conference (IEEE VTC), 2026\nReinforcement-learning-based mobility and handover management for integrated terrestrial and non-terrestrial networks.\nPublication record\n\n\n\nArtificial Intelligence for Satellite Communication: A Survey\nGianluca Fontanesi, Flor Ortiz, Eva Lagunas, et al., including Tedros Salih Abdu\nIEEE Communications Surveys & Tutorials, 2026\nA comprehensive survey of artificial intelligence and machine learning techniques for satellite communication systems.\nDOI\n\n\n\nOptimizing Resource Planning for Next-Generation Satellite Communication Systems\nTedros Salih Abdu, Vu Nguyen Ha, Eva Lagunas, and Symeon Chatzinotas\nIEEE GLOBECOM Workshops, Cape Town, South Africa, 2024\nResource planning for determining satellite-system specifications required to support heterogeneous communication services.\nPublication record"
+  },
+  {
+    "objectID": "publications.html#mobility-non-terrestrial-networks",
+    "href": "publications.html#mobility-non-terrestrial-networks",
+    "title": "Publications",
+    "section": "Mobility & Non-Terrestrial Networks",
+    "text": "Mobility & Non-Terrestrial Networks\n\nDemand-Aware Flexible Handover Strategy for LEO Constellation\nTedros Salih Abdu, Eva Lagunas, Vu Nguyen Ha, Joel Grotz, Steven Kisseleff, and Symeon Chatzinotas\nIEEE ICC Workshop on Mega-Constellations in the 6G Era (6GSatComNet), Rome, Italy, 2023\nDemand-aware handover for LEO satellite constellations, with the objective of reducing unnecessary handovers while continuously satisfying user demand.\nPublication record"
+  },
+  {
+    "objectID": "publications.html#satellite-resource-management-optimization",
+    "href": "publications.html#satellite-resource-management-optimization",
+    "title": "Publications",
+    "section": "Satellite Resource Management & Optimization",
+    "text": "Satellite Resource Management & Optimization\n\nDemand-Aware Onboard Payload Processor Management for High Throughput NGSO Satellite Systems\nTedros Salih Abdu, Steven Kisseleff, Eva Lagunas, Joel Grotz, Symeon Chatzinotas, and Björn E. Ottersten\nIEEE Transactions on Aerospace and Electronic Systems, 2023\nDemand-aware management of onboard processing resources for high-throughput NGSO satellite systems.\nPublication record\n\n\n\nDemand and Interference Aware Adaptive Resource Management for High Throughput GEO Satellite Systems\nTedros Salih Abdu, Steven Kisseleff, Eva Lagunas, Symeon Chatzinotas, and Björn E. Ottersten\nIEEE Open Journal of the Communications Society, 2022\nAdaptive resource management jointly considering traffic demand, power and bandwidth utilization, and inter-beam interference in high-throughput GEO satellite systems.\nPublication record\n\n\n\nA Deep Learning Based Acceleration of Complex Satellite Resource Management Problem\nTedros Salih Abdu, Steven Kisseleff, Lei Lei, Eva Lagunas, Joel Grotz, and Symeon Chatzinotas\n30th European Signal Processing Conference (EUSIPCO), 2022\nA learning-assisted approach for reducing the computational complexity of demand-aware satellite power and bandwidth optimization.\nPublication record\n\n\n\nFlexible Resource Optimization for GEO Multibeam Satellite Communication System\nTedros Salih Abdu, Steven Kisseleff, Eva Lagunas, and Symeon Chatzinotas\nIEEE Transactions on Wireless Communications, 2021\nJoint power and bandwidth optimization for flexible multibeam GEO satellite systems under non-uniform traffic demand.\nPublication record\n\n\n\nRadio Resource Management Techniques for Multibeam Satellite Systems\nSteven Kisseleff, Eva Lagunas, Tedros Salih Abdu, Symeon Chatzinotas, and Björn E. Ottersten\nIEEE Communications Letters, vol. 25, no. 8, pp. 2448–2452, 2021\nAn overview of radio-resource management techniques for flexible multibeam satellite systems, including demand matching and scheduling.\nPublication record"
+  },
+  {
+    "objectID": "publications.html#beam-placement-resource-allocation",
+    "href": "publications.html#beam-placement-resource-allocation",
+    "title": "Publications",
+    "section": "Beam Placement & Resource Allocation",
+    "text": "Beam Placement & Resource Allocation\n\nA Global Beam Placement and Resource Allocation Design for MEO-Constellation-Based Satellite Communication Systems\nVu Nguyen Ha, Tedros Salih Abdu, Ti Ti Nguyen, Hung Nguyen Kha, Eva Lagunas, Joel Grotz, and Symeon Chatzinotas\nResearch Square Preprint, 2026\nA scalable framework for joint beam placement, bandwidth allocation, power allocation, and satellite-to-service-group association in large-scale MEO satellite systems. The work considers time-varying satellite visibility, heterogeneous user demand, payload-resource constraints, and spectrum- and energy-efficient operation.\nPreprint\n\n\n\nLarge-Scale Beam Placement and Resource Allocation Design for MEO-Constellation SATCOM\nVu Nguyen Ha, Eva Lagunas, Tedros Salih Abdu, Haythem Chaker, Symeon Chatzinotas, and Joel Grotz\nIEEE ICC Workshop on Mega-Constellations in the 6G Era (6GSatComNet), Rome, Italy, 2023\nPreliminary work on joint beam placement and radio-resource allocation for large-scale MEO satellite constellations under non-uniform traffic demand.\nPublication record"
+  },
+  {
+    "objectID": "publications.html#doctoral-thesis",
+    "href": "publications.html#doctoral-thesis",
+    "title": "Publications",
+    "section": "Doctoral Thesis",
+    "text": "Doctoral Thesis\n\nResource Management Techniques for Flexible Broadband Satellite Communication Systems\nTedros Salih Abdu\nPh.D. Thesis, University of Luxembourg, 2022\nMy doctoral research investigated resource-management techniques for flexible broadband satellite communication systems, including power and bandwidth allocation, demand-aware resource management, interference management, and flexible satellite payload operation.\nThe doctoral research was supported by the Luxembourg National Research Fund (FNR) through the AFR programme under the project:\nPower and Bandwidth Allocation for INterference-Limited SATellite Communication Systems\nFNR AFR project record\n\n\nFNR Research Spotlight\nMy doctoral research on satellite resource optimization was featured by the Luxembourg National Research Fund in its Spotlight on Young Researchers series.\nFNR Spotlight — An Algorithm to Allocate Satellite Resources"
+  },
+  {
+    "objectID": "publications.html#complete-publication-record",
+    "href": "publications.html#complete-publication-record",
+    "title": "Publications",
+    "section": "Complete Publication Record",
+    "text": "Complete Publication Record\nFor the complete and most up-to-date list of publications and citation information:\nGoogle Scholar"
+  }
+]

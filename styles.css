@@ -1,0 +1,715 @@
+/* =========================================================
+   Tedros Salih Abdu — Academic Research Website
+   Final Site Stylesheet
+   ========================================================= */
+
+
+/* =========================================================
+   1. Color System
+   ========================================================= */
+
+:root {
+  --site-bg: #f7f9fc;
+  --surface: #ffffff;
+  --surface-soft: #eef4f8;
+
+  --text-main: #263238;
+  --text-muted: #5f6b76;
+
+  --heading: #17324d;
+
+  --primary: #2f6fa3;
+  --primary-dark: #1f4263;
+  --primary-hover: #255b87;
+
+  --border: #dfe6ed;
+  --border-light: #e9eef3;
+
+  --shadow-soft: rgba(23, 50, 77, 0.06);
+  --shadow-medium: rgba(23, 50, 77, 0.10);
+}
+
+
+/* =========================================================
+   2. Global
+   ========================================================= */
+
+body {
+  background-color: var(--site-bg);
+  color: var(--text-main);
+
+  font-size: 1.04rem;
+  line-height: 1.72;
+}
+
+main {
+  max-width: 1100px;
+}
+
+p {
+  margin-bottom: 1.15rem;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: var(--heading);
+  line-height: 1.25;
+}
+
+h1 {
+  letter-spacing: -0.02em;
+}
+
+h2 {
+  margin-top: 3.5rem;
+  margin-bottom: 1.35rem;
+
+  font-weight: 650;
+  letter-spacing: -0.01em;
+}
+
+h3 {
+  margin-top: 1.8rem;
+  margin-bottom: 0.8rem;
+
+  font-weight: 600;
+}
+
+hr {
+  margin: 3.5rem 0;
+
+  border: 0;
+  border-top: 1px solid var(--border);
+
+  opacity: 1;
+}
+
+strong {
+  font-weight: 650;
+}
+
+
+/* =========================================================
+   3. Links
+   ========================================================= */
+
+main a:not(.btn) {
+  color: var(--primary);
+
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
+main a:not(.btn):hover {
+  color: var(--primary-hover);
+  text-decoration-thickness: 2px;
+}
+
+
+/* =========================================================
+   4. Navbar
+   ========================================================= */
+
+.navbar {
+  background-color: var(--primary-dark) !important;
+
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+
+  box-shadow:
+    0 2px 12px rgba(23, 50, 77, 0.16);
+}
+
+.navbar-brand {
+  color: #ffffff !important;
+
+  font-weight: 650;
+  letter-spacing: 0.01em;
+}
+
+.navbar-nav .nav-link {
+  color: rgba(255, 255, 255, 0.88) !important;
+
+  font-weight: 500;
+
+  margin-left: 0.15rem;
+  margin-right: 0.15rem;
+
+  transition:
+    color 0.15s ease,
+    opacity 0.15s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ffffff !important;
+}
+
+.navbar-nav .nav-link.active {
+  color: #ffffff !important;
+  font-weight: 600;
+}
+
+
+/* =========================================================
+   5. Standard Page Titles
+   ========================================================= */
+
+.quarto-title h1 {
+  color: var(--heading);
+
+  font-weight: 700;
+  letter-spacing: -0.025em;
+}
+
+#title-block-header {
+  margin-bottom: 2.5rem;
+}
+
+#quarto-document-content {
+  padding-bottom: 3rem;
+}
+
+
+/* =========================================================
+   6. Homepage — Hide Quarto-Generated Title
+   ========================================================= */
+
+body:has(.home-page) #title-block-header {
+  display: none;
+}
+
+
+/* =========================================================
+   7. Homepage Hero
+   ========================================================= */
+
+.hero {
+  display: grid;
+
+  grid-template-columns:
+    minmax(0, 1.65fr)
+    minmax(250px, 0.65fr);
+
+  gap: 4.5rem;
+
+  align-items: center;
+
+  padding-top: 4.5rem;
+  padding-bottom: 3rem;
+}
+
+.hero-text h1 {
+  color: var(--heading);
+
+  font-size: clamp(2.8rem, 5vw, 4.1rem);
+  font-weight: 700;
+  line-height: 1.06;
+
+  margin-top: 0;
+  margin-bottom: 1rem;
+
+  letter-spacing: -0.035em;
+}
+
+.hero-text h3 {
+  color: #356b98;
+
+  font-size: 1.34rem;
+  font-weight: 500;
+  line-height: 1.45;
+
+  margin-top: 0;
+  margin-bottom: 1.8rem;
+}
+
+.hero-text p {
+  max-width: 780px;
+
+  font-size: 1.08rem;
+}
+
+
+/* =========================================================
+   8. Profile Photo
+   ========================================================= */
+
+.hero-photo {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-photo img {
+  width: 285px;
+  height: 285px;
+
+  object-fit: cover;
+  object-position: center;
+
+  border-radius: 50%;
+
+  border: 5px solid var(--surface);
+
+  box-shadow:
+    0 16px 36px var(--shadow-medium),
+    0 4px 10px var(--shadow-soft);
+}
+
+
+/* =========================================================
+   9. Buttons
+   ========================================================= */
+
+.btn {
+  margin-right: 0.4rem;
+  margin-top: 0.5rem;
+
+  padding: 0.58rem 1.05rem;
+
+  border-radius: 7px;
+
+  font-weight: 500;
+
+  transition:
+    transform 0.15s ease,
+    box-shadow 0.15s ease,
+    background-color 0.15s ease,
+    border-color 0.15s ease,
+    color 0.15s ease;
+}
+
+.btn:hover {
+  transform: translateY(-1px);
+
+  box-shadow:
+    0 5px 14px var(--shadow-medium);
+}
+
+.btn-primary {
+  background-color: var(--primary) !important;
+  border-color: var(--primary) !important;
+
+  color: #ffffff !important;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: var(--primary-hover) !important;
+  border-color: var(--primary-hover) !important;
+
+  color: #ffffff !important;
+}
+
+.btn-outline-primary {
+  background-color: transparent !important;
+
+  color: var(--primary) !important;
+  border-color: var(--primary) !important;
+}
+
+.btn-outline-primary:hover,
+.btn-outline-primary:focus {
+  background-color: var(--primary) !important;
+
+  color: #ffffff !important;
+  border-color: var(--primary) !important;
+}
+
+
+/* =========================================================
+   10. Homepage Research Cards
+   ========================================================= */
+
+.research-grid {
+  display: grid;
+
+  grid-template-columns:
+    repeat(2, minmax(0, 1fr));
+
+  gap: 1.4rem;
+
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+
+.research-card {
+  padding: 1.75rem 1.85rem;
+
+  background: var(--surface);
+
+  border: 1px solid var(--border);
+  border-radius: 14px;
+
+  box-shadow:
+    0 4px 16px var(--shadow-soft);
+
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease,
+    border-color 0.2s ease;
+}
+
+.research-card:hover {
+  transform: translateY(-3px);
+
+  border-color: #c9d6e2;
+
+  box-shadow:
+    0 12px 28px var(--shadow-medium);
+}
+
+.research-card h3 {
+  color: var(--heading);
+
+  margin-top: 0;
+  margin-bottom: 0.9rem;
+
+  font-size: 1.2rem;
+  font-weight: 650;
+}
+
+.research-card p {
+  margin-bottom: 0;
+}
+
+
+/* =========================================================
+   11. Research Highlights
+   ========================================================= */
+
+.current-research {
+  margin: 1.8rem 0;
+
+  padding:
+    1.3rem
+    0
+    1.3rem
+    1.6rem;
+
+  border-left:
+    4px solid var(--primary);
+}
+
+.current-research h3 {
+  margin-top: 0;
+}
+
+.leadership-highlight {
+  margin: 2rem 0;
+
+  padding: 2rem 2.2rem;
+
+  background: var(--surface-soft);
+
+  border-left:
+    5px solid var(--primary);
+
+  border-radius: 10px;
+}
+
+.leadership-highlight h3 {
+  margin-top: 0;
+}
+
+
+/* =========================================================
+   12. Research Page
+   ========================================================= */
+
+body:not(.publications-page)
+#quarto-document-content > h2 {
+  padding-bottom: 0.45rem;
+}
+
+body:not(.publications-page)
+#quarto-document-content > h3 {
+  line-height: 1.35;
+}
+
+
+/* =========================================================
+   13. Publications Page
+   ========================================================= */
+
+.publications-page
+#quarto-document-content {
+  max-width: 900px;
+}
+
+.publications-page h2 {
+  margin-top: 3.8rem;
+  margin-bottom: 1.7rem;
+
+  padding-bottom: 0.6rem;
+
+  border-bottom:
+    1px solid var(--border);
+
+  color: var(--heading);
+
+  font-size: 1.55rem;
+  font-weight: 650;
+}
+
+.publications-page h3 {
+  margin-top: 2.1rem;
+  margin-bottom: 0.55rem;
+
+  color: var(--heading);
+
+  font-size: 1.16rem;
+  line-height: 1.42;
+  font-weight: 650;
+}
+
+.publications-page h3 + p {
+  margin-bottom: 0.7rem;
+}
+
+.publications-page hr {
+  margin: 2rem 0;
+
+  border-top:
+    1px solid var(--border-light);
+}
+
+.publications-page em {
+  color: var(--text-muted);
+
+  font-size: 0.97rem;
+}
+
+.publications-page .btn {
+  margin-top: 0.4rem;
+}
+
+
+/* =========================================================
+   14. Ideas Listing
+   ========================================================= */
+
+.quarto-listing {
+  margin-top: 1.5rem;
+}
+
+.quarto-listing .quarto-post {
+  padding-top: 1.35rem;
+  padding-bottom: 1.35rem;
+
+  border-bottom:
+    1px solid var(--border-light);
+}
+
+.quarto-listing .listing-title {
+  color: var(--heading);
+
+  font-weight: 650;
+  line-height: 1.35;
+}
+
+.quarto-listing .listing-description {
+  color: var(--text-main);
+
+  line-height: 1.6;
+}
+
+.quarto-listing .listing-category {
+  font-size: 0.83rem;
+}
+
+
+/* =========================================================
+   15. Research Notes / Article Pages
+   ========================================================= */
+
+blockquote {
+  margin: 1.8rem 0;
+
+  padding:
+    1rem
+    1.4rem;
+
+  background: var(--surface-soft);
+
+  border-left:
+    4px solid var(--primary);
+
+  color: var(--heading);
+
+  font-size: 1.03rem;
+}
+
+blockquote p:last-child {
+  margin-bottom: 0;
+}
+
+
+/* =========================================================
+   16. Lists
+   ========================================================= */
+
+main ul,
+main ol {
+  margin-bottom: 1.25rem;
+}
+
+main li {
+  margin-bottom: 0.3rem;
+}
+
+
+/* =========================================================
+   17. Table of Contents
+   ========================================================= */
+
+.sidebar nav[role="doc-toc"] {
+  font-size: 0.9rem;
+}
+
+.sidebar nav[role="doc-toc"]
+ul > li > a {
+  color: var(--text-muted);
+
+  line-height: 1.45;
+}
+
+.sidebar nav[role="doc-toc"] a:hover {
+  color: var(--primary);
+}
+
+.sidebar nav[role="doc-toc"] a.active {
+  color: var(--primary);
+
+  font-weight: 600;
+}
+
+
+/* =========================================================
+   18. Footer
+   ========================================================= */
+
+.nav-footer {
+  margin-top: 4rem;
+
+  padding-top: 1.6rem;
+  padding-bottom: 1.6rem;
+
+  border-top:
+    1px solid var(--border);
+
+  color: var(--text-muted);
+
+  font-size: 0.9rem;
+}
+
+
+/* =========================================================
+   19. Text Selection
+   ========================================================= */
+
+::selection {
+  background: #dbe9f4;
+  color: var(--heading);
+}
+
+
+/* =========================================================
+   20. Mobile
+   ========================================================= */
+
+@media (max-width: 768px) {
+
+  body {
+    font-size: 1rem;
+  }
+
+  .hero {
+    grid-template-columns: 1fr;
+
+    gap: 2rem;
+
+    padding-top: 2.3rem;
+    padding-bottom: 2.5rem;
+
+    text-align: center;
+  }
+
+  .hero-photo {
+    order: 1;
+  }
+
+  .hero-text {
+    order: 2;
+  }
+
+  .hero-photo img {
+    width: 205px;
+    height: 205px;
+  }
+
+  .hero-text h1 {
+    font-size: 2.55rem;
+  }
+
+  .hero-text h3 {
+    font-size: 1.18rem;
+  }
+
+  .hero-text p {
+    text-align: left;
+  }
+
+  .research-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .research-card {
+    padding: 1.5rem;
+  }
+
+  h2 {
+    margin-top: 2.8rem;
+  }
+
+  .publications-page h2 {
+    margin-top: 3rem;
+
+    font-size: 1.4rem;
+  }
+
+  .publications-page h3 {
+    font-size: 1.1rem;
+  }
+
+  .btn {
+    margin-bottom: 0.3rem;
+  }
+
+  .leadership-highlight {
+    padding: 1.5rem;
+  }
+}
+
+
+/* =========================================================
+   21. Very Small Screens
+   ========================================================= */
+
+@media (max-width: 480px) {
+
+  .hero-text h1 {
+    font-size: 2.25rem;
+  }
+
+  .hero-photo img {
+    width: 185px;
+    height: 185px;
+  }
+
+  .research-card {
+    border-radius: 11px;
+  }
+}

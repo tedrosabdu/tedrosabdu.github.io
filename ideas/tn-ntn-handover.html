@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="dcterms.date" content="2026-09-21">
+<meta name="description" content="Research perspectives on intelligent mobility and handover across integrated terrestrial and non-terrestrial networks.">
+
+<title>Rethinking Handover for Integrated TN–NTN Networks – Tedros Salih Abdu</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-221fb94c3ec07aa7e68c2d5abc4fc18e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<style>html{ scroll-behavior: smooth; }</style>
+
+
+<link rel="stylesheet" href="../styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">Tedros Salih Abdu</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../research.html"> 
+<span class="menu-text">Research</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../publications.html"> 
+<span class="menu-text">Publications</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../ideas.html"> 
+<span class="menu-text">Ideas</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../about.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="https://scholar.google.com/citations?user=63dpB2wAAAAJ&amp;hl=en"> 
+<span class="menu-text">Google Scholar</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#from-leo-handover-to-tnntn-mobility" id="toc-from-leo-handover-to-tnntn-mobility" class="nav-link active" data-scroll-target="#from-leo-handover-to-tnntn-mobility">From LEO Handover to TN–NTN Mobility</a></li>
+  <li><a href="#handover-is-more-than-a-radio-decision" id="toc-handover-is-more-than-a-radio-decision" class="nav-link" data-scroll-target="#handover-is-more-than-a-radio-decision">Handover Is More Than a Radio Decision</a></li>
+  <li><a href="#from-rule-based-to-intelligent-handover" id="toc-from-rule-based-to-intelligent-handover" class="nav-link" data-scroll-target="#from-rule-based-to-intelligent-handover">From Rule-Based to Intelligent Handover</a></li>
+  <li><a href="#learning-based-mobility-management" id="toc-learning-based-mobility-management" class="nav-link" data-scroll-target="#learning-based-mobility-management">Learning-Based Mobility Management</a></li>
+  <li><a href="#research-directions" id="toc-research-directions" class="nav-link" data-scroll-target="#research-directions">Research Directions</a>
+  <ul class="collapse">
+  <li><a href="#context-aware-and-predictive-handover" id="toc-context-aware-and-predictive-handover" class="nav-link" data-scroll-target="#context-aware-and-predictive-handover">1. Context-Aware and Predictive Handover</a></li>
+  <li><a href="#hybrid-optimization-and-learning" id="toc-hybrid-optimization-and-learning" class="nav-link" data-scroll-target="#hybrid-optimization-and-learning">2. Hybrid Optimization and Learning</a></li>
+  <li><a href="#service--and-resource-aware-mobility" id="toc-service--and-resource-aware-mobility" class="nav-link" data-scroll-target="#service--and-resource-aware-mobility">3. Service- and Resource-Aware Mobility</a></li>
+  <li><a href="#mobility-aware-tnntn-architecture" id="toc-mobility-aware-tnntn-architecture" class="nav-link" data-scroll-target="#mobility-aware-tnntn-architecture">4. Mobility-Aware TN–NTN Architecture</a></li>
+  </ul></li>
+  <li><a href="#research-perspective" id="toc-research-perspective" class="nav-link" data-scroll-target="#research-perspective">Research Perspective</a></li>
+  <li><a href="#related-publications" id="toc-related-publications" class="nav-link" data-scroll-target="#related-publications">Related Publications</a>
+  <ul class="collapse">
+  <li><a href="#demand-aware-flexible-handover-strategy-for-leo-constellation" id="toc-demand-aware-flexible-handover-strategy-for-leo-constellation" class="nav-link" data-scroll-target="#demand-aware-flexible-handover-strategy-for-leo-constellation">1. Demand-Aware Flexible Handover Strategy for LEO Constellation</a></li>
+  <li><a href="#satellite-and-mobile-network-operator-cooperation-models-for-efficient-handover-in-6g-tn-ntn" id="toc-satellite-and-mobile-network-operator-cooperation-models-for-efficient-handover-in-6g-tn-ntn" class="nav-link" data-scroll-target="#satellite-and-mobile-network-operator-cooperation-models-for-efficient-handover-in-6g-tn-ntn">2. Satellite and Mobile Network Operator Cooperation Models for Efficient Handover in 6G-TN-NTN</a></li>
+  <li><a href="#deep-reinforcement-learning-for-mobility-management-in-6g-networks-a-survey" id="toc-deep-reinforcement-learning-for-mobility-management-in-6g-networks-a-survey" class="nav-link" data-scroll-target="#deep-reinforcement-learning-for-mobility-management-in-6g-networks-a-survey">3. Deep Reinforcement Learning for Mobility Management in 6G Networks: A Survey</a></li>
+  <li><a href="#intelligent-handover-management-for-hybrid-tnntn-mobility-in-6g-architectures" id="toc-intelligent-handover-management-for-hybrid-tnntn-mobility-in-6g-architectures" class="nav-link" data-scroll-target="#intelligent-handover-management-for-hybrid-tnntn-mobility-in-6g-architectures">4. Intelligent Handover Management for Hybrid TN–NTN Mobility in 6G Architectures</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Rethinking Handover for Integrated TN–NTN Networks</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">TN/NTN</div>
+    <div class="quarto-category">Mobility</div>
+    <div class="quarto-category">Handover</div>
+    <div class="quarto-category">6G</div>
+    <div class="quarto-category">AI/ML</div>
+  </div>
+  </div>
+
+<div>
+  <div class="description">
+    Research perspectives on intelligent mobility and handover across integrated terrestrial and non-terrestrial networks.
+  </div>
+</div>
+
+
+<div class="quarto-title-meta">
+
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">September 21, 2026</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>The integration of <strong>terrestrial networks (TN) and non-terrestrial networks (NTN)</strong> creates new opportunities for ubiquitous and resilient connectivity. It also changes the nature of mobility management.</p>
+<p>In a conventional terrestrial network, handover is primarily associated with user movement between cells. In NTN, the network itself may be moving: satellites and their coverage areas evolve continuously relative to users on the ground.</p>
+<p>When TN and NTN are integrated, mobility management therefore becomes a broader decision problem involving <strong>radio conditions, satellite visibility, user demand, network availability, service requirements, and handover cost</strong>.</p>
+<p>My research in this area has evolved from <strong>demand-aware handover in LEO constellations</strong> toward <strong>intelligent mobility management for integrated TN–NTN systems</strong>.</p>
+<hr>
+<section id="from-leo-handover-to-tnntn-mobility" class="level2">
+<h2 class="anchored" data-anchor-id="from-leo-handover-to-tnntn-mobility">From LEO Handover to TN–NTN Mobility</h2>
+<p>LEO constellations introduce an inherent mobility challenge. Even for a stationary user, the serving satellite remains visible only for a limited period.</p>
+<p>This leads to a fundamental question:</p>
+<blockquote class="blockquote">
+<p>How can continuous service be maintained while avoiding unnecessary handovers?</p>
+</blockquote>
+<p>In our earlier work on <strong>demand-aware flexible handover for LEO constellations</strong>, we considered handover together with user traffic demand. The objective was to reduce the number of handovers while continuously satisfying the required user demand.</p>
+<p>This work motivated a broader perspective: handover should not depend only on which satellite is visible or which link is strongest. The decision should also consider whether the serving network can continue satisfying the user’s service requirements.</p>
+<p>The problem becomes more complex in integrated TN–NTN systems because a user may have multiple connectivity alternatives, including terrestrial cells, satellite beams, and different satellites.</p>
+<p>The decision therefore changes from:</p>
+<blockquote class="blockquote">
+<p>Which satellite should serve the user?</p>
+</blockquote>
+<p>to:</p>
+<blockquote class="blockquote">
+<p>Which network, cell, beam, or satellite should serve the user, and when is switching actually beneficial?</p>
+</blockquote>
+<hr>
+</section>
+<section id="handover-is-more-than-a-radio-decision" class="level2">
+<h2 class="anchored" data-anchor-id="handover-is-more-than-a-radio-decision">Handover Is More Than a Radio Decision</h2>
+<p>Integrated TN–NTN mobility involves several interacting factors:</p>
+<ul>
+<li>radio-link quality,</li>
+<li>satellite visibility and coverage evolution,</li>
+<li>terrestrial-network availability,</li>
+<li>user mobility,</li>
+<li>traffic and service requirements,</li>
+<li>network load,</li>
+<li>handover interruption,</li>
+<li>connection failures,</li>
+<li>and ping-pong behavior.</li>
+</ul>
+<p>There is also an architectural dimension.</p>
+<p>Terrestrial connectivity may be provided by a <strong>Mobile Network Operator (MNO)</strong> while satellite connectivity is provided by a <strong>Satellite Network Operator (SNO)</strong>.</p>
+<p>Our work on MNO–SNO cooperation examined how roaming and network cooperation affect mobility between terrestrial and satellite networks. This highlights an important point: seamless TN–NTN mobility depends not only on the handover algorithm but also on the architecture supporting the transition.</p>
+<p>Future handover mechanisms may therefore need to reason jointly about <strong>radio conditions and network context</strong>.</p>
+<hr>
+</section>
+<section id="from-rule-based-to-intelligent-handover" class="level2">
+<h2 class="anchored" data-anchor-id="from-rule-based-to-intelligent-handover">From Rule-Based to Intelligent Handover</h2>
+<p>Conventional handover mechanisms commonly use radio measurements together with parameters such as thresholds, hysteresis, and time-to-trigger.</p>
+<p>These mechanisms remain important, but integrated TN–NTN environments introduce additional information that could potentially improve mobility decisions.</p>
+<p>For example, a handover controller could consider:</p>
+<p><strong>Radio context</strong> — signal quality, interference, and link availability.</p>
+<p><strong>NTN context</strong> — satellite position, elevation, visibility duration, and beam evolution.</p>
+<p><strong>User context</strong> — mobility, traffic demand, and service requirements.</p>
+<p><strong>Network context</strong> — load, resource availability, and candidate-network conditions.</p>
+<p><strong>Architectural context</strong> — MNO/SNO cooperation and expected handover interruption.</p>
+<p><strong>Predictive context</strong> — future satellite visibility and expected network conditions.</p>
+<p>This changes handover from a largely reactive event toward a potentially <strong>context-aware and predictive decision process</strong>.</p>
+<hr>
+</section>
+<section id="learning-based-mobility-management" class="level2">
+<h2 class="anchored" data-anchor-id="learning-based-mobility-management">Learning-Based Mobility Management</h2>
+<p>Deep reinforcement learning (DRL) provides one framework for studying such sequential mobility decisions.</p>
+<p>Instead of optimizing each handover independently, an RL agent can learn a policy that considers the longer-term consequences of remaining with the current network or moving to another candidate.</p>
+<p>In our recent work, we evaluated <strong>PPO, A2C, and DQN</strong> for handover management across hybrid TN–NTN scenarios.</p>
+<p>An important observation is that the relative behavior of these algorithms depends on the considered coverage environment. This suggests that simply introducing AI/ML does not automatically solve the mobility problem.</p>
+<p>The <strong>state representation, reward formulation, network scenario, training environment, and algorithm</strong> all matter.</p>
+<p>For me, this leads to a more interesting research question:</p>
+<blockquote class="blockquote">
+<p>How can mobility intelligence adapt to the characteristics of the TN–NTN environment rather than relying on one fixed handover strategy?</p>
+</blockquote>
+<hr>
+</section>
+<section id="research-directions" class="level2">
+<h2 class="anchored" data-anchor-id="research-directions">Research Directions</h2>
+<p>Building on these results, I am particularly interested in four directions.</p>
+<section id="context-aware-and-predictive-handover" class="level3">
+<h3 class="anchored" data-anchor-id="context-aware-and-predictive-handover">1. Context-Aware and Predictive Handover</h3>
+<p>Satellite trajectories provide information that is fundamentally different from conventional terrestrial mobility: much of the satellite motion is predictable.</p>
+<p>This creates opportunities to combine current radio measurements with information about:</p>
+<ul>
+<li>future satellite visibility,</li>
+<li>expected coverage evolution,</li>
+<li>user trajectory,</li>
+<li>service requirements,</li>
+<li>and network conditions.</li>
+</ul>
+<p>A key question is whether this information can enable <strong>proactive handover decisions</strong> rather than waiting until link degradation triggers a transition.</p>
+<hr>
+</section>
+<section id="hybrid-optimization-and-learning" class="level3">
+<h3 class="anchored" data-anchor-id="hybrid-optimization-and-learning">2. Hybrid Optimization and Learning</h3>
+<p>My earlier LEO handover work used optimization-based methods, while more recent work investigates learning-based mobility management.</p>
+<p>These approaches have complementary strengths.</p>
+<p>Model-based optimization can exploit known system structure and constraints. Learning can be useful when decisions involve complex dynamics and long-term consequences.</p>
+<p>This motivates hybrid approaches such as:</p>
+<ul>
+<li>optimization-guided reinforcement learning,</li>
+<li>learning-assisted candidate selection,</li>
+<li>model-based constraints for learned policies,</li>
+<li>and hierarchical TN–NTN decision making.</li>
+</ul>
+<p>The objective is not simply to replace optimization with AI, but to determine <strong>where learning adds measurable value</strong>.</p>
+<hr>
+</section>
+<section id="service--and-resource-aware-mobility" class="level3">
+<h3 class="anchored" data-anchor-id="service--and-resource-aware-mobility">3. Service- and Resource-Aware Mobility</h3>
+<p>The strongest instantaneous radio link may not always be the most appropriate serving network.</p>
+<p>Future mobility decisions could jointly consider:</p>
+<ul>
+<li>link quality,</li>
+<li>user QoS,</li>
+<li>traffic demand,</li>
+<li>terrestrial and satellite resources,</li>
+<li>network congestion,</li>
+<li>and expected connection duration.</li>
+</ul>
+<p>This connects mobility management with another major area of my research: <strong>radio-resource management</strong>.</p>
+<p>A broader question is therefore:</p>
+<blockquote class="blockquote">
+<p>Can mobility and resource management be optimized jointly rather than treated as independent network functions?</p>
+</blockquote>
+<hr>
+</section>
+<section id="mobility-aware-tnntn-architecture" class="level3">
+<h3 class="anchored" data-anchor-id="mobility-aware-tnntn-architecture">4. Mobility-Aware TN–NTN Architecture</h3>
+<p>The network architecture itself can influence handover latency, signaling, and service continuity.</p>
+<p>This makes MNO–SNO cooperation, core-network integration, and mobility procedures part of the research problem.</p>
+<p>An important direction is to investigate which architectural assumptions enable intelligent mobility mechanisms to operate effectively and how mobility algorithms should adapt when those assumptions change.</p>
+<hr>
+</section>
+</section>
+<section id="research-perspective" class="level2">
+<h2 class="anchored" data-anchor-id="research-perspective">Research Perspective</h2>
+<p>The evolution from LEO satellite handover toward integrated TN–NTN mobility suggests that future handover mechanisms will need to operate across several dimensions:</p>
+<p><strong>radio conditions + satellite dynamics + user requirements + network resources + architecture + prediction</strong></p>
+<p>The research challenge is therefore broader than finding a better handover threshold.</p>
+<p>The objective is to determine <strong>when to hand over, where to hand over, and whether a handover is worthwhile</strong>, while maintaining service continuity and using terrestrial and non-terrestrial resources efficiently.</p>
+<p>This is the direction I am continuing to explore through <strong>system modeling, mathematical optimization, machine learning, and system-level evaluation</strong>.</p>
+<hr>
+</section>
+<section id="related-publications" class="level2">
+<h2 class="anchored" data-anchor-id="related-publications">Related Publications</h2>
+<section id="demand-aware-flexible-handover-strategy-for-leo-constellation" class="level3">
+<h3 class="anchored" data-anchor-id="demand-aware-flexible-handover-strategy-for-leo-constellation">1. Demand-Aware Flexible Handover Strategy for LEO Constellation</h3>
+<p><strong>T. S. Abdu, E. Lagunas, V. N. Ha, J. Grotz, S. Kisseleff, and S. Chatzinotas</strong><br>
+<em>IEEE ICC Workshops, Rome, Italy, 2023.</em></p>
+<p>Investigates demand-aware LEO satellite handover with the objective of reducing unnecessary handovers while satisfying user demand.</p>
+<p><a href="https://orbilu.uni.lu/handle/10993/54766">Publication record</a></p>
+<hr>
+</section>
+<section id="satellite-and-mobile-network-operator-cooperation-models-for-efficient-handover-in-6g-tn-ntn" class="level3">
+<h3 class="anchored" data-anchor-id="satellite-and-mobile-network-operator-cooperation-models-for-efficient-handover-in-6g-tn-ntn">2. Satellite and Mobile Network Operator Cooperation Models for Efficient Handover in 6G-TN-NTN</h3>
+<p><strong>T. S. Abdu, E. Lagunas, F. Ortiz, J. Querol, J. Grotz, M. O. K. Mendonça, O. Aouedi, and S. Chatzinotas</strong><br>
+<em>15th EASN International Conference, Madrid, Spain, 2025.</em></p>
+<p>Examines MNO–SNO cooperation and mobility procedures for integrated TN–NTN connectivity.</p>
+<p><a href="https://orbilu.uni.lu/handle/10993/66732">Publication record</a></p>
+<hr>
+</section>
+<section id="deep-reinforcement-learning-for-mobility-management-in-6g-networks-a-survey" class="level3">
+<h3 class="anchored" data-anchor-id="deep-reinforcement-learning-for-mobility-management-in-6g-networks-a-survey">3. Deep Reinforcement Learning for Mobility Management in 6G Networks: A Survey</h3>
+<p><strong>O. Aouedi, T. S. Abdu, E. Lagunas, and S. Chatzinotas</strong><br>
+<em>2026.</em></p>
+<p>Provides a broader perspective on DRL-based mobility management and its application to heterogeneous future wireless networks.</p>
+<p><a href="https://orbilu.uni.lu/handle/10993/68539">Publication record</a></p>
+<hr>
+</section>
+<section id="intelligent-handover-management-for-hybrid-tnntn-mobility-in-6g-architectures" class="level3">
+<h3 class="anchored" data-anchor-id="intelligent-handover-management-for-hybrid-tnntn-mobility-in-6g-architectures">4. Intelligent Handover Management for Hybrid TN–NTN Mobility in 6G Architectures</h3>
+<p><strong>O. Aouedi, T. S. Abdu, K.-H. Nguyen, E. Lagunas, J. Querol, and J. Grotz</strong><br>
+<em>IEEE 103rd Vehicular Technology Conference (IEEE VTC), 2026.</em></p>
+<p>Investigates reinforcement-learning-based handover for hybrid TN–NTN mobility and evaluates PPO, A2C, and DQN across different coverage scenarios.</p>
+<p><a href="https://orbilu.uni.lu/handle/10993/69015">Publication record</a></p>
+<hr>
+<p><em>This note presents an evolving research perspective. The Research Directions describe potential extensions and open questions rather than completed research results.</em></p>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>© 2026 Tedros Salih Abdu</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
+
+
+
+
+<script src="../site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>
