@@ -154,55 +154,6 @@
     "text": "Related Publications\n\n1. Demand-Aware Flexible Handover Strategy for LEO Constellation\nT. S. Abdu, E. Lagunas, V. N. Ha, J. Grotz, S. Kisseleff, and S. Chatzinotas\nIEEE ICC Workshops, Rome, Italy, 2023.\nInvestigates demand-aware LEO satellite handover with the objective of reducing unnecessary handovers while satisfying user demand.\nPublication record\n\n\n\n2. Satellite and Mobile Network Operator Cooperation Models for Efficient Handover in 6G-TN-NTN\nT. S. Abdu, E. Lagunas, F. Ortiz, J. Querol, J. Grotz, M. O. K. Mendonça, O. Aouedi, and S. Chatzinotas\n15th EASN International Conference, Madrid, Spain, 2025.\nExamines MNO–SNO cooperation and mobility procedures for integrated TN–NTN connectivity.\nPublication record\n\n\n\n3. Deep Reinforcement Learning for Mobility Management in 6G Networks: A Survey\nO. Aouedi, T. S. Abdu, E. Lagunas, and S. Chatzinotas\n2026.\nProvides a broader perspective on DRL-based mobility management and its application to heterogeneous future wireless networks.\nPublication record\n\n\n\n4. Intelligent Handover Management for Hybrid TN–NTN Mobility in 6G Architectures\nO. Aouedi, T. S. Abdu, K.-H. Nguyen, E. Lagunas, J. Querol, and J. Grotz\nIEEE 103rd Vehicular Technology Conference (IEEE VTC), 2026.\nInvestigates reinforcement-learning-based handover for hybrid TN–NTN mobility and evaluates PPO, A2C, and DQN across different coverage scenarios.\nPublication record\n\nThis note presents an evolving research perspective. The Research Directions describe potential extensions and open questions rather than completed research results."
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "I am Tedros Salih Abdu, a researcher at the Interdisciplinary Centre for Security, Reliability and Trust (SnT), University of Luxembourg. My work focuses on the design and optimization of next-generation wireless communication systems, particularly terrestrial and non-terrestrial networks.\nMy background spans academic research, industrial R&D, and collaborative research-project leadership, with experience in mathematical optimization, machine learning, algorithm development, and system-level simulation for wireless and satellite communication systems."
-  },
-  {
-    "objectID": "about.html#background",
-    "href": "about.html#background",
-    "title": "About",
-    "section": "Background",
-    "text": "Background\nI received my Ph.D. in Computer Science from the University of Luxembourg in 2022, where my doctoral research focused on resource-management techniques for flexible broadband satellite communication systems.\nI received a joint M.Sc. degree in Electrical Engineering from Pan African University and Jomo Kenyatta University of Agriculture and Technology, Kenya, in 2017, and a B.Sc. degree in Electronics and Communication Engineering from Mekelle University.\nMy professional experience spans both academia and industry. From 2017 to 2019, I was a Lecturer at Wollo University. I subsequently joined the University of Luxembourg, where I worked as a Doctoral Researcher and later as a Research Associate.\nI also worked at Nokia as a Senior Algorithm and Simulation Engineer, contributing to algorithm development and system-level simulation for 5G systems. I later returned to SnT, University of Luxembourg, where I currently work on research and development for next-generation terrestrial and non-terrestrial communication systems."
-  },
-  {
-    "objectID": "about.html#research-interests",
-    "href": "about.html#research-interests",
-    "title": "About",
-    "section": "Research Interests",
-    "text": "Research Interests\nMy research interests include:\n\nTerrestrial and non-terrestrial networks (TN/NTN)\nMobility and handover management\nRadio-resource management\nSatellite system planning and constellation optimization\nPrecoding, beamforming, and beam management\nChannel modeling and channel estimation\nMathematical optimization for communication systems\nMachine learning for wireless networks\nDirect-to-Device satellite connectivity\n\nMy research combines communication-system modeling, mathematical optimization, machine learning, algorithm development, and system-level simulation.\nFor a more detailed overview, see my Research page."
-  },
-  {
-    "objectID": "about.html#research-projects-leadership",
-    "href": "about.html#research-projects-leadership",
-    "title": "About",
-    "section": "Research Projects & Leadership",
-    "text": "Research Projects & Leadership\nI contribute to collaborative research projects at SnT, University of Luxembourg, with responsibilities spanning research, technical leadership, and task coordination.\n\nSHINE — VPI\nREGINA — Task Leader\nSYMBOL — Task Leader\nEMMANUELE — Researcher\n\nMy project activities include research and technical leadership, technical coordination, system and scenario modeling, development of technical specifications, research documentation, reporting, and dissemination."
-  },
-  {
-    "objectID": "about.html#professional-service",
-    "href": "about.html#professional-service",
-    "title": "About",
-    "section": "Professional Service",
-    "text": "Professional Service\nAlongside my research, I contribute to the wireless-communications research community through conference and journal service.\nI have served as a Technical Programme Committee (TPC) Member for the EuCNC & 6G Summit within the Wireless, Optical and Satellite Networks (WOS) track.\nI have also reviewed research for international conferences including IEEE ICC, IEEE PIMRC, and EuCNC & 6G Summit, as well as journals including IEEE Transactions on Wireless Communications, IEEE Transactions on Aerospace and Electronic Systems, and IEEE Communications Letters."
-  },
-  {
-    "objectID": "about.html#research-ideas",
-    "href": "about.html#research-ideas",
-    "title": "About",
-    "section": "Research Ideas",
-    "text": "Research Ideas\nBeyond formal publications, I use this website to document selected research perspectives, open questions, and emerging research directions related to my work.\nThese notes currently explore topics including intelligent TN–NTN mobility and handover, satellite resource planning, constellation optimization, and future directions for 6G satellite networks.\nExplore Research Ideas & Notes →"
-  },
-  {
-    "objectID": "about.html#connect",
-    "href": "about.html#connect",
-    "title": "About",
-    "section": "Connect",
-    "text": "Connect\nI welcome research discussions and potential collaborations in next-generation wireless communications, integrated TN–NTN systems, satellite communications, resource optimization, and intelligent network design.\nEmail Google Scholar Publications"
-  },
-  {
     "objectID": "ideas/resource-plan-satellite-constellation.html",
     "href": "ideas/resource-plan-satellite-constellation.html",
     "title": "From Satellite Resource Planning to Constellation Optimization",
@@ -264,6 +215,97 @@
     "title": "From Satellite Resource Planning to Constellation Optimization",
     "section": "Related Publications",
     "text": "Related Publications\n\n1. Optimizing Resource Planning for Next-Generation Satellite Communication Systems\nT. S. Abdu, V. N. Ha, E. Lagunas, and S. Chatzinotas\nIEEE GLOBECOM Workshops, Cape Town, South Africa, 2024.\nInvestigates resource planning before satellite deployment and develops an optimization-based methodology for determining system specifications required to support heterogeneous communication services.\nPublication record\n\n\n\n2. Satellite Constellation Optimization for 6G and Beyond Satellite Networks\nT. S. Abdu, J. A. Vásquez-Peralvo, E. Lagunas, and S. Chatzinotas\nIEEE ICC Workshops, Glasgow, United Kingdom, 2026.\nExtends the planning perspective to constellation design under orbital, communication, and satellite-visibility requirements for future 6G connectivity.\nPublication record\n\nThis note presents an evolving research perspective. The Research Directions describe potential extensions and open questions rather than completed research results."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "I am Tedros Salih Abdu, a researcher at the Interdisciplinary Centre for Security, Reliability and Trust (SnT), University of Luxembourg. My work focuses on the design and optimization of next-generation wireless communication systems, particularly terrestrial and non-terrestrial networks.\nMy background spans academic research, industrial R&D, and collaborative research-project leadership, with experience in mathematical optimization, machine learning, algorithm development, and system-level simulation for wireless and satellite communication systems."
+  },
+  {
+    "objectID": "about.html#background",
+    "href": "about.html#background",
+    "title": "About",
+    "section": "Background",
+    "text": "Background\nI received my Ph.D. in Computer Science from the University of Luxembourg in 2022, where my doctoral research focused on resource-management techniques for flexible broadband satellite communication systems.\nI received a joint M.Sc. degree in Electrical Engineering from Pan African University and Jomo Kenyatta University of Agriculture and Technology, Kenya, in 2017, and a B.Sc. degree in Electronics and Communication Engineering from Mekelle University.\nMy professional experience spans both academia and industry. From 2017 to 2019, I was a Lecturer at Wollo University. I subsequently joined the University of Luxembourg, where I worked as a Doctoral Researcher and later as a Research Associate.\nI also worked at Nokia as a Senior Algorithm and Simulation Engineer, contributing to algorithm development and system-level simulation for 5G systems. I later returned to SnT, University of Luxembourg, where I currently work on research and development for next-generation terrestrial and non-terrestrial communication systems."
+  },
+  {
+    "objectID": "about.html#research-interests",
+    "href": "about.html#research-interests",
+    "title": "About",
+    "section": "Research Interests",
+    "text": "Research Interests\nMy research interests include:\n\nTerrestrial and non-terrestrial networks (TN/NTN)\nMobility and handover management\nRadio-resource management\nSatellite system planning and constellation optimization\nPrecoding, beamforming, and beam management\nChannel modeling and channel estimation\nMathematical optimization for communication systems\nMachine learning for wireless networks\nDirect-to-Device satellite connectivity\n\nMy research combines communication-system modeling, mathematical optimization, machine learning, algorithm development, and system-level simulation.\nFor a more detailed overview, see my Research page."
+  },
+  {
+    "objectID": "about.html#research-projects-leadership",
+    "href": "about.html#research-projects-leadership",
+    "title": "About",
+    "section": "Research Projects & Leadership",
+    "text": "Research Projects & Leadership\nI contribute to collaborative research projects at SnT, University of Luxembourg, with responsibilities spanning research, technical leadership, and task coordination.\n\nSHINE — VPI\nREGINA — Task Leader\nSYMBOL — Task Leader\nEMMANUELE — Researcher\n\nMy project activities include research and technical leadership, technical coordination, system and scenario modeling, development of technical specifications, research documentation, reporting, and dissemination."
+  },
+  {
+    "objectID": "about.html#professional-service",
+    "href": "about.html#professional-service",
+    "title": "About",
+    "section": "Professional Service",
+    "text": "Professional Service\nAlongside my research, I contribute to the wireless-communications research community through conference and journal service.\nI have served as a Technical Programme Committee (TPC) Member for the EuCNC & 6G Summit within the Wireless, Optical and Satellite Networks (WOS) track.\nI have also reviewed research for international conferences including IEEE ICC, IEEE PIMRC, and EuCNC & 6G Summit, as well as journals including IEEE Transactions on Wireless Communications, IEEE Transactions on Aerospace and Electronic Systems, and IEEE Communications Letters."
+  },
+  {
+    "objectID": "about.html#research-ideas",
+    "href": "about.html#research-ideas",
+    "title": "About",
+    "section": "Research Ideas",
+    "text": "Research Ideas\nBeyond formal publications, I use this website to document selected research perspectives, open questions, and emerging research directions related to my work.\nThese notes currently explore topics including intelligent TN–NTN mobility and handover, satellite resource planning, constellation optimization, and future directions for 6G satellite networks.\nExplore Research Ideas & Notes →"
+  },
+  {
+    "objectID": "about.html#connect",
+    "href": "about.html#connect",
+    "title": "About",
+    "section": "Connect",
+    "text": "Connect\nI welcome research discussions and potential collaborations in next-generation wireless communications, integrated TN–NTN systems, satellite communications, resource optimization, and intelligent network design.\nEmail Google Scholar Publications"
+  },
+  {
+    "objectID": "ideas/roaming-or-handover-tn-ntn.html",
+    "href": "ideas/roaming-or-handover-tn-ntn.html",
+    "title": "Roaming or Handover for Integrated TN–NTN?",
+    "section": "",
+    "text": "Integrated terrestrial and non-terrestrial networks require users to move between the coverage of Mobile Network Operators (MNOs) and Satellite Network Operators (SNOs).\nThis raises an important mobility question:\nOur recent work investigates this question by comparing different MNO–SNO cooperation mechanisms for integrated TN–NTN networks."
+  },
+  {
+    "objectID": "ideas/roaming-or-handover-tn-ntn.html#roaming-or-handover",
+    "href": "ideas/roaming-or-handover-tn-ntn.html#roaming-or-handover",
+    "title": "Roaming or Handover for Integrated TN–NTN?",
+    "section": "Roaming or Handover?",
+    "text": "Roaming or Handover?\nTraditionally, mobility within the coverage of the same operator is handled through handover, while movement from a Home Public Land Mobile Network (HPLMN) to another operator’s network is handled through roaming.\nIn an integrated TN–NTN system, however, a user may need to switch from an MNO to an SNO when terrestrial coverage becomes limited or unavailable.\nConventional roaming can introduce significant service interruption because the UE may lose its connection with the home network before searching for and connecting to the visited network.\nThis becomes particularly important for high-mobility users, such as users travelling on high-speed trains."
+  },
+  {
+    "objectID": "ideas/roaming-or-handover-tn-ntn.html#mobility-mechanisms-for-mnosno-transitions",
+    "href": "ideas/roaming-or-handover-tn-ntn.html#mobility-mechanisms-for-mnosno-transitions",
+    "title": "Roaming or Handover for Integrated TN–NTN?",
+    "section": "Mobility Mechanisms for MNO–SNO Transitions",
+    "text": "Mobility Mechanisms for MNO–SNO Transitions\nExisting approaches for mobility between terrestrial and satellite networks include mechanisms such as Release-with-Redirect, inter-PLMN handover, and RACH-less handover. These mechanisms and their associated signaling procedures are reviewed in our previous work.\nSee the discussion in our paper\nRather than revisiting these mechanisms individually, an interesting research question is:\n\nWhen should a transition between an MNO and an SNO be handled as roaming, and when should it be handled as a coordinated handover?\n\nThis question becomes particularly relevant when terrestrial and satellite connectivity are not isolated alternatives, but complementary parts of an integrated network through which a user may transition repeatedly."
+  },
+  {
+    "objectID": "ideas/roaming-or-handover-tn-ntn.html#ml-assisted-handover",
+    "href": "ideas/roaming-or-handover-tn-ntn.html#ml-assisted-handover",
+    "title": "Roaming or Handover for Integrated TN–NTN?",
+    "section": "ML-Assisted Handover",
+    "text": "ML-Assisted Handover\nAnother challenge is deciding whether the UE should hand over to another terrestrial cell or switch to the satellite network.\nOur work proposes an ML-assisted Conditional Handover (CHO) approach.\nThe candidate terrestrial cell is first selected based on Reference Signal Received Power (RSRP). An ML model then predicts the future elevation angle of the moving UE relative to the candidate terrestrial gNB.\nThe prediction helps determine whether the terrestrial target remains appropriate as the UE continues moving. Otherwise, the UE can switch to—or remain connected with—the satellite network.\nThe objective is to reduce mobility problems such as connection failures and ping-pong events, while improving the success of MNO–SNO cooperation."
+  },
+  {
+    "objectID": "ideas/roaming-or-handover-tn-ntn.html#research-perspective",
+    "href": "ideas/roaming-or-handover-tn-ntn.html#research-perspective",
+    "title": "Roaming or Handover for Integrated TN–NTN?",
+    "section": "Research Perspective",
+    "text": "Research Perspective\nThe results raise an interesting question for integrated TN–NTN mobility:\n\nWhen should an MNO–SNO transition rely on roaming, and when should it be handled through inter-PLMN handover?\n\nRoaming provides an established mechanism for mobility between different operators, but its interruption time can be problematic when seamless connectivity is required.\nInter-PLMN handover, particularly when combined with mechanisms such as RACH-less access and ML-assisted mobility decisions, provides another direction for supporting transitions between terrestrial and satellite networks.\nThis suggests that the design of future TN–NTN mobility should consider not only which network the UE should connect to, but also which mobility procedure should be used to perform the transition."
+  },
+  {
+    "objectID": "ideas/roaming-or-handover-tn-ntn.html#related-publication",
+    "href": "ideas/roaming-or-handover-tn-ntn.html#related-publication",
+    "title": "Roaming or Handover for Integrated TN–NTN?",
+    "section": "Related Publication",
+    "text": "Related Publication\nTedros Salih Abdu, Eva Lagunas, Flor Ortiz, Jorge Querol, Joel Grotz, Marcele O. K. Mendonça, Ons Aouedi, and Symeon Chatzinotas\n“Satellite and Mobile Network Operator Cooperation Models for Efficient Handover in 6G-TN-NTN.”\nEngineering Proceedings, 2026, 133(1), 187.\nRead the publication\n\nThis note summarizes a research perspective emerging from our work on MNO–SNO cooperation for TN–NTN mobility."
   },
   {
     "objectID": "ideas.html",

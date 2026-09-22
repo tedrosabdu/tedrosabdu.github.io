@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="dcterms.date" content="2026-09-22">
+<meta name="description" content="A research perspective on roaming and handover between mobile and satellite network operators in integrated TN–NTN systems.">
 
-<title>Ideas &amp; Research Notes – Tedros Salih Abdu</title>
+<title>Roaming or Handover for Integrated TN–NTN? – Tedros Salih Abdu</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -29,25 +31,23 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-221fb94c3ec07aa7e68c2d5abc4fc18e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-221fb94c3ec07aa7e68c2d5abc4fc18e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -75,68 +75,10 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 <style>html{ scroll-behavior: smooth; }</style>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
 
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../styles.css">
 </head>
 
 <body class="nav-fixed quarto-light">
@@ -146,7 +88,7 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Tedros Salih Abdu</span>
     </a>
   </div>
@@ -157,23 +99,23 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
+    <a class="nav-link" href="../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./research.html"> 
+    <a class="nav-link" href="../research.html"> 
 <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./publications.html"> 
+    <a class="nav-link" href="../publications.html"> 
 <span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./ideas.html" aria-current="page"> 
+    <a class="nav-link" href="../ideas.html"> 
 <span class="menu-text">Ideas</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
 </ul>
@@ -194,20 +136,48 @@ window.Quarto = {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Nkc=">6G <span class="quarto-category-count">(2)</span></div><div class="category" data-category="QUklMkZNTA==">AI/ML <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Q29uc3RlbGxhdGlvbiUyMERlc2lnbg==">Constellation Design <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RGlyZWN0LXRvLURldmljZQ==">Direct-to-Device <span class="quarto-category-count">(1)</span></div><div class="category" data-category="SGFuZG92ZXI=">Handover <span class="quarto-category-count">(2)</span></div><div class="category" data-category="TW9iaWxpdHk=">Mobility <span class="quarto-category-count">(2)</span></div><div class="category" data-category="T3B0aW1pemF0aW9u">Optimization <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UmVzb3VyY2UlMjBQbGFubmluZw==">Resource Planning <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Um9hbWluZw==">Roaming <span class="quarto-category-count">(1)</span></div><div class="category" data-category="U2F0ZWxsaXRlJTIwTmV0d29ya3M=">Satellite Networks <span class="quarto-category-count">(1)</span></div><div class="category" data-category="VE4tTlRO">TN-NTN <span class="quarto-category-count">(1)</span></div><div class="category" data-category="VE4lMkZOVE4=">TN/NTN <span class="quarto-category-count">(1)</span></div></div></div>
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#roaming-or-handover" id="toc-roaming-or-handover" class="nav-link active" data-scroll-target="#roaming-or-handover">Roaming or Handover?</a></li>
+  <li><a href="#mobility-mechanisms-for-mnosno-transitions" id="toc-mobility-mechanisms-for-mnosno-transitions" class="nav-link" data-scroll-target="#mobility-mechanisms-for-mnosno-transitions">Mobility Mechanisms for MNO–SNO Transitions</a></li>
+  <li><a href="#ml-assisted-handover" id="toc-ml-assisted-handover" class="nav-link" data-scroll-target="#ml-assisted-handover">ML-Assisted Handover</a></li>
+  <li><a href="#research-perspective" id="toc-research-perspective" class="nav-link" data-scroll-target="#research-perspective">Research Perspective</a></li>
+  <li><a href="#related-publication" id="toc-related-publication" class="nav-link" data-scroll-target="#related-publication">Related Publication</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Ideas &amp; Research Notes</h1>
-</div>
+<h1 class="title">Roaming or Handover for Integrated TN–NTN?</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">TN-NTN</div>
+    <div class="quarto-category">Mobility</div>
+    <div class="quarto-category">Handover</div>
+    <div class="quarto-category">Roaming</div>
+  </div>
+  </div>
 
+<div>
+  <div class="description">
+    A research perspective on roaming and handover between mobile and satellite network operators in integrated TN–NTN systems.
+  </div>
+</div>
 
 
 <div class="quarto-title-meta">
 
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">September 22, 2026</p>
+    </div>
+  </div>
   
     
   </div>
@@ -217,128 +187,65 @@ window.Quarto = {
 </header>
 
 
-<p>Research often begins with a question rather than a finished result.</p>
-<p>This space is where I develop <strong>research perspectives, technical observations, open questions, and emerging directions</strong> related to my work in terrestrial and non-terrestrial networks.</p>
-<p>The notes connect ideas across <strong>TN–NTN mobility, radio-resource management, satellite system planning, constellation optimization, and AI/ML-assisted communication systems</strong>.</p>
-<p>They are intended to capture the thinking that often sits between published results and future research questions. Some notes therefore discuss <strong>work in progress, possible extensions, and research directions rather than completed research results</strong>.</p>
+<p>Integrated terrestrial and non-terrestrial networks require users to move between the coverage of <strong>Mobile Network Operators (MNOs)</strong> and <strong>Satellite Network Operators (SNOs)</strong>.</p>
+<p>This raises an important mobility question:</p>
+<blockquote class="blockquote">
+<p><strong>Should the transition between an MNO and an SNO be handled through conventional roaming, or can inter-PLMN handover provide a more seamless solution?</strong></p>
+</blockquote>
+<p>Our recent work investigates this question by comparing different MNO–SNO cooperation mechanisms for integrated TN–NTN networks.</p>
 <hr>
-<section id="research-notes" class="level2">
-<h2 class="anchored" data-anchor-id="research-notes">Research Notes</h2>
-
+<section id="roaming-or-handover" class="level2">
+<h2 class="anchored" data-anchor-id="roaming-or-handover">Roaming or Handover?</h2>
+<p>Traditionally, mobility within the coverage of the same operator is handled through <strong>handover</strong>, while movement from a Home Public Land Mobile Network (HPLMN) to another operator’s network is handled through <strong>roaming</strong>.</p>
+<p>In an integrated TN–NTN system, however, a user may need to switch from an MNO to an SNO when terrestrial coverage becomes limited or unavailable.</p>
+<p>Conventional roaming can introduce significant service interruption because the UE may lose its connection with the home network before searching for and connecting to the visited network.</p>
+<p>This becomes particularly important for high-mobility users, such as users travelling on high-speed trains.</p>
+<hr>
+</section>
+<section id="mobility-mechanisms-for-mnosno-transitions" class="level2">
+<h2 class="anchored" data-anchor-id="mobility-mechanisms-for-mnosno-transitions">Mobility Mechanisms for MNO–SNO Transitions</h2>
+<p>Existing approaches for mobility between terrestrial and satellite networks include mechanisms such as <strong>Release-with-Redirect, inter-PLMN handover, and RACH-less handover</strong>. These mechanisms and their associated signaling procedures are reviewed in our previous work.</p>
+<p><a href="https://www.mdpi.com/2673-4591/133/1/187">See the discussion in our paper</a></p>
+<p>Rather than revisiting these mechanisms individually, an interesting research question is:</p>
+<blockquote class="blockquote">
+<p><strong>When should a transition between an MNO and an SNO be handled as roaming, and when should it be handled as a coordinated handover?</strong></p>
+</blockquote>
+<p>This question becomes particularly relevant when terrestrial and satellite connectivity are not isolated alternatives, but complementary parts of an integrated network through which a user may transition repeatedly.</p>
+<hr>
+</section>
+<section id="ml-assisted-handover" class="level2">
+<h2 class="anchored" data-anchor-id="ml-assisted-handover">ML-Assisted Handover</h2>
+<p>Another challenge is deciding whether the UE should hand over to another terrestrial cell or switch to the satellite network.</p>
+<p>Our work proposes an <strong>ML-assisted Conditional Handover (CHO)</strong> approach.</p>
+<p>The candidate terrestrial cell is first selected based on <strong>Reference Signal Received Power (RSRP)</strong>. An ML model then predicts the future elevation angle of the moving UE relative to the candidate terrestrial gNB.</p>
+<p>The prediction helps determine whether the terrestrial target remains appropriate as the UE continues moving. Otherwise, the UE can switch to—or remain connected with—the satellite network.</p>
+<p>The objective is to reduce mobility problems such as <strong>connection failures and ping-pong events</strong>, while improving the success of MNO–SNO cooperation.</p>
+<hr>
+</section>
+<section id="research-perspective" class="level2">
+<h2 class="anchored" data-anchor-id="research-perspective">Research Perspective</h2>
+<p>The results raise an interesting question for integrated TN–NTN mobility:</p>
+<blockquote class="blockquote">
+<p><strong>When should an MNO–SNO transition rely on roaming, and when should it be handled through inter-PLMN handover?</strong></p>
+</blockquote>
+<p>Roaming provides an established mechanism for mobility between different operators, but its interruption time can be problematic when seamless connectivity is required.</p>
+<p>Inter-PLMN handover, particularly when combined with mechanisms such as <strong>RACH-less access and ML-assisted mobility decisions</strong>, provides another direction for supporting transitions between terrestrial and satellite networks.</p>
+<p>This suggests that the design of future TN–NTN mobility should consider not only <strong>which network the UE should connect to</strong>, but also <strong>which mobility procedure should be used to perform the transition</strong>.</p>
+<hr>
+</section>
+<section id="related-publication" class="level2">
+<h2 class="anchored" data-anchor-id="related-publication">Related Publication</h2>
+<p><strong>Tedros Salih Abdu</strong>, Eva Lagunas, Flor Ortiz, Jorge Querol, Joel Grotz, Marcele O. K. Mendonça, Ons Aouedi, and Symeon Chatzinotas</p>
+<p><strong>“Satellite and Mobile Network Operator Cooperation Models for Efficient Handover in 6G-TN-NTN.”</strong></p>
+<p><em>Engineering Proceedings, 2026, 133(1), 187.</em></p>
+<p><a href="https://www.mdpi.com/2673-4591/133/1/187">Read the publication</a></p>
+<hr>
+<p><em>This note summarizes a research perspective emerging from our work on MNO–SNO cooperation for TN–NTN mobility.</em></p>
 
 
 </section>
 
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="VE4tTlROJTJDTW9iaWxpdHklMkNIYW5kb3ZlciUyQ1JvYW1pbmc=" data-listing-date-sort="1790028000000" data-listing-file-modified-sort="1790079969913" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="524">
-<div class="thumbnail"><a href="./ideas/roaming-or-handover-tn-ntn.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./ideas/roaming-or-handover-tn-ntn.html" class="no-external">Roaming or Handover for Integrated TN–NTN?</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('VE4tTlRO'); return false;">TN-NTN</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('TW9iaWxpdHk='); return false;">Mobility</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('SGFuZG92ZXI='); return false;">Handover</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('Um9hbWluZw=='); return false;">Roaming</div>
-
-</div>
-<div class="delink listing-description"><a href="./ideas/roaming-or-handover-tn-ntn.html" class="no-external">
-<p>A research perspective on roaming and handover between mobile and satellite network operators in integrated TN–NTN systems.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./ideas/roaming-or-handover-tn-ntn.html" class="no-external">
-<div class="listing-date">
-Sep 22, 2026
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="U2F0ZWxsaXRlJTIwTmV0d29ya3MlMkNDb25zdGVsbGF0aW9uJTIwRGVzaWduJTJDUmVzb3VyY2UlMjBQbGFubmluZyUyQ09wdGltaXphdGlvbiUyQzZHJTJDRGlyZWN0LXRvLURldmljZQ==" data-listing-date-sort="1789941600000" data-listing-file-modified-sort="1790003658903" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1183">
-<div class="thumbnail"><a href="./ideas/resource-plan-satellite-constellation.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./ideas/resource-plan-satellite-constellation.html" class="no-external">From Satellite Resource Planning to Constellation Optimization</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('U2F0ZWxsaXRlJTIwTmV0d29ya3M='); return false;">Satellite Networks</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('Q29uc3RlbGxhdGlvbiUyMERlc2lnbg=='); return false;">Constellation Design</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('UmVzb3VyY2UlMjBQbGFubmluZw=='); return false;">Resource Planning</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('T3B0aW1pemF0aW9u'); return false;">Optimization</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('Nkc='); return false;">6G</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('RGlyZWN0LXRvLURldmljZQ=='); return false;">Direct-to-Device</div>
-
-</div>
-<div class="delink listing-description"><a href="./ideas/resource-plan-satellite-constellation.html" class="no-external">
-<p>Research perspectives on connecting service requirements, satellite resource planning, and constellation design for future 6G satellite networks.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./ideas/resource-plan-satellite-constellation.html" class="no-external">
-<div class="listing-date">
-Sep 21, 2026
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="VE4lMkZOVE4lMkNNb2JpbGl0eSUyQ0hhbmRvdmVyJTJDNkclMkNBSSUyRk1M" data-listing-date-sort="1789941600000" data-listing-file-modified-sort="1790003658906" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1201">
-<div class="thumbnail"><a href="./ideas/tn-ntn-handover.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./ideas/tn-ntn-handover.html" class="no-external">Rethinking Handover for Integrated TN–NTN Networks</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('VE4lMkZOVE4='); return false;">TN/NTN</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('TW9iaWxpdHk='); return false;">Mobility</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('SGFuZG92ZXI='); return false;">Handover</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('Nkc='); return false;">6G</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('QUklMkZNTA=='); return false;">AI/ML</div>
-
-</div>
-<div class="delink listing-description"><a href="./ideas/tn-ntn-handover.html" class="no-external">
-<p>Research perspectives on intelligent mobility and handover across integrated terrestrial and non-terrestrial networks.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./ideas/tn-ntn-handover.html" class="no-external">
-<div class="listing-date">
-Sep 21, 2026
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -762,5 +669,5 @@ Sep 21, 2026
 
 
 
-<script src="site_libs/quarto-html/zenscroll-min.js"></script>
+<script src="../site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>
