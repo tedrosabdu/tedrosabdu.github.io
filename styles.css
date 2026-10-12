@@ -713,3 +713,9 @@ ul > li > a {
     border-radius: 11px;
   }
 }
+
+/* Hide visible descriptions beneath Quarto page titles */
+#title-block-header .description,
+.quarto-title .description {
+  display: none !important;
+}
