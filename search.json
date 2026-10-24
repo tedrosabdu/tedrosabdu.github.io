@@ -266,6 +266,34 @@
     "text": "Connect\nI welcome research discussions and potential collaborations in next-generation wireless communications, integrated TN–NTN systems, satellite communications, resource optimization, and intelligent network design.\nEmail Google Scholar Publications"
   },
   {
+    "objectID": "ideas/agentic-ai-gateway-recovery.html",
+    "href": "ideas/agentic-ai-gateway-recovery.html",
+    "title": "Agentic AI for Gateway Recovery in Multi-Orbit Satellite Networks",
+    "section": "",
+    "text": "Satellite networks depend on ground gateways to connect with terrestrial infrastructure. Gateway disruptions caused by interference, jamming, cyberattacks, or natural disasters can interrupt connectivity. Although LEO satellites can redirect traffic through inter-satellite links, LEO-only recovery may be insufficient during widespread gateway outages.\nThis motivates a central question:\n\nHow can multi-orbit satellite networks autonomously restore gateway connectivity when conventional recovery alternatives become insufficient?"
+  },
+  {
+    "objectID": "ideas/agentic-ai-gateway-recovery.html#research-motivation",
+    "href": "ideas/agentic-ai-gateway-recovery.html#research-motivation",
+    "title": "Agentic AI for Gateway Recovery in Multi-Orbit Satellite Networks",
+    "section": "",
+    "text": "Satellite networks depend on ground gateways to connect with terrestrial infrastructure. Gateway disruptions caused by interference, jamming, cyberattacks, or natural disasters can interrupt connectivity. Although LEO satellites can redirect traffic through inter-satellite links, LEO-only recovery may be insufficient during widespread gateway outages.\nThis motivates a central question:\n\nHow can multi-orbit satellite networks autonomously restore gateway connectivity when conventional recovery alternatives become insufficient?"
+  },
+  {
+    "objectID": "ideas/agentic-ai-gateway-recovery.html#research-perspective",
+    "href": "ideas/agentic-ai-gateway-recovery.html#research-perspective",
+    "title": "Agentic AI for Gateway Recovery in Multi-Orbit Satellite Networks",
+    "section": "Research Perspective",
+    "text": "Research Perspective\nIn our recent paper, we introduce a conceptual Hierarchical Virtual Gateway (HVG) architecture with three recovery scopes:\n\nLocal Virtual Gateway (LVG): Recovery using LEO resources.\nRegional Virtual Gateway (RVG): Extended recovery using MEO resources.\nGlobal Virtual Gateway (GVG): Broader recovery using GEO resources.\n\nThese are logical recovery arrangements toward operational physical gateways, not new ground gateways.\nThe framework incorporates distributed Agentic AI through an Observe–Reason–Plan–Decide–Act–Learn (ORPDAL) cycle to assess disruptions, coordinate satellite agents, and adapt recovery decisions."
+  },
+  {
+    "objectID": "ideas/agentic-ai-gateway-recovery.html#open-research-directions",
+    "href": "ideas/agentic-ai-gateway-recovery.html#open-research-directions",
+    "title": "Agentic AI for Gateway Recovery in Multi-Orbit Satellite Networks",
+    "section": "Open Research Directions",
+    "text": "Open Research Directions\nImportant challenges include distributed multi-agent coordination, cross-orbit resource orchestration, trustworthy onboard AI, inter-operator cooperation, and large-scale validation.\nThe proposed framework remains conceptual. Developing practical algorithms and evaluating their performance are directions for future research.\n\nRelated publication: Agentic AI for Gateway Recovery in Multi-Orbit Satellite Networks: Architecture, Control, and Deployment Challenges"
+  },
+  {
     "objectID": "ideas/roaming-or-handover-tn-ntn.html",
     "href": "ideas/roaming-or-handover-tn-ntn.html",
     "title": "Roaming or Handover for Integrated TN–NTN?",
